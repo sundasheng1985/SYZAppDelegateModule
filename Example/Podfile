@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SYZAppDelegateModule_Example' do
+  pod 'SYZAppDelegateModule', :path => '../'
+   pod 'CYLTabBarController'
+   pod 'SYZMultipleUIKit'
+  target 'SYZAppDelegateModule_Tests' do
+    inherit! :search_paths
+
+
+  end
+end

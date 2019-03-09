@@ -1,0 +1,6 @@
+framework module SYZMultipleUIKit {
+  umbrella header "SYZMultipleUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

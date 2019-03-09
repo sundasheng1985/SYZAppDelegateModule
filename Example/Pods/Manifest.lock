@@ -1,0 +1,26 @@
+PODS:
+  - CYLTabBarController (1.19.2)
+  - SYZAppDelegateModule (0.1.0):
+    - SYZUIBasekit
+  - SYZMultipleUIKit (0.1.1):
+    - SYZUIBasekit
+  - SYZUIBasekit (0.1.2)
+
+DEPENDENCIES:
+  - CYLTabBarController
+  - SYZAppDelegateModule (from `../`)
+  - SYZMultipleUIKit
+
+EXTERNAL SOURCES:
+  SYZAppDelegateModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CYLTabBarController: 5b364d6be617331a07f3f3f0ea537f7950501042
+  SYZAppDelegateModule: 69aaf2473338f1c6f142671ab0e64a0c9c12eb18
+  SYZMultipleUIKit: 325abf7f066f163a652fd29c9d5dbb93a6bd862a
+  SYZUIBasekit: 91226752a5c3b1653e059e8ffacbcd01e135aace
+
+PODFILE CHECKSUM: 781d25357e5aff24d90b8e2188911f597b7fc54a
+
+COCOAPODS: 1.4.0

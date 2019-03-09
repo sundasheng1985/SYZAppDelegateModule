@@ -1,0 +1,1926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00593BD1E391D10F1390F2DB41764A1E /* NSDate+SYZTimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C6F8911883F27DCCFFAE60773B07BB /* NSDate+SYZTimeStamp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01A329CB58BDB399DFA6F0E4677C0644 /* NSData+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DE7064FD4F97995C2E0FAAE5459C11 /* NSData+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		030A81E65DCD795EDBD22AA0F31C5331 /* UIView+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = A302C5E370E752F2E6BAF8A5EF76B52D /* UIView+CYLBadgeExtention.m */; };
+		060568D4325114EB0933FD2BC34DC9DE /* UIButton+SYZTouchBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 9163779A3BE65580A409FA67166E06F5 /* UIButton+SYZTouchBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A3B5EFF77AA4F7AE46BEDE58BFCB579 /* NSData+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = A625AD2D2E5B0EEB5CC01B1F355BD258 /* NSData+SYZFoundationAdd.m */; };
+		0BC6AEC9D8492AD9C600B5656DBF867E /* UITableView+SYZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0853A9CDEF09E341203B5A9CA932558A /* UITableView+SYZTableView.m */; };
+		0C9CAAC119F72F7BFC488366C3D30BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B5E4C0E068F663A77D788E36F149EF /* Foundation.framework */; };
+		0DCC96238DED8EF53937900CF3FB12BB /* NSDictionary+SYZDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B7478FC4251772AC53D470EBCBA23FEB /* NSDictionary+SYZDictionary.m */; };
+		0E0E404553D0898684BBFECE29561AF8 /* NSArray+SYZArrayAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E149A6733D24C9FBFDCC8AC1E75190D5 /* NSArray+SYZArrayAdd.m */; };
+		1085CD72550A3F99D57EBA34CC749207 /* UICollectionView+SYZUIKitAddUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A341650E950E2300E7807F9AC136E3A /* UICollectionView+SYZUIKitAddUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		112F8505FF0C4FED6B37145679BF4E15 /* NSDateFormatter+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EAE81C706C0F96536577CE4A94C1ED /* NSDateFormatter+SYZFoundationAdd.m */; };
+		11BC48AA7B282567E8598C4B34839472 /* NSException+SYZException.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CAA7708085513924AC6EFEAA96E1836 /* NSException+SYZException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12E46B7CD67EF58FF4C5AAC4C30B1E33 /* SYZResponserBlockTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A8DA67106E29A60D9CAE365A99AF40 /* SYZResponserBlockTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1432FE6AA2F41EA1FE4C550C101384C6 /* CYLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F800A9B6D3EA3FDF1991DFE05B0FFB /* CYLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		154357F256DB4E7D1F60E2762870FD27 /* UIView+SYZBundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 02C89710C63D7ABDBF2DBAC4903778E3 /* UIView+SYZBundleImage.m */; };
+		1576F70735998190F0B3F47262E11446 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBDA5BA3E395DC4630653EF21EE2DF2 /* UIView+Shadow.m */; };
+		1666765D7965F8C0FF714CD5E2286265 /* NSDate+SYZTimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC6D82CA5A30362D1AFBF8D95FB70F6 /* NSDate+SYZTimeStamp.m */; };
+		1748E1AC14681D6D715D788485C01739 /* NSMutableAttributedString+SYZAdditon.h in Headers */ = {isa = PBXBuildFile; fileRef = D389F1BE84ED674568E16B2971376CFF /* NSMutableAttributedString+SYZAdditon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		176179FB8A9A1603D2C5082F8029664B /* CYLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3727BEB8F8D833F84D2804BFCE19A30D /* CYLBaseNavigationController.m */; };
+		17F5770596E035C15A99E27BD87F295B /* NSHTTPCookieStorage+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E18805BCFB7CA9063279A266F50FE27 /* NSHTTPCookieStorage+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AA8AAC53829B409467544F9C0C8C76C /* CYLPlusButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EE67004F5A74EB1175ACB1713478B721 /* CYLPlusButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AD03418D23EFB92BAE51D86C73C38A2 /* UIImageView+SYZBundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4267B43E328B14AB799A6C3D708869 /* UIImageView+SYZBundleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BB0D0C349C828F23807F881C4E24371 /* UICollectionView+SYZCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5D556784E52FA93167B91995C60323 /* UICollectionView+SYZCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C7A500F5B653F7D7619B3117E1AC696 /* UIImageView+SYZCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BAFD6A878E4B984F7CA7EF8A207796 /* UIImageView+SYZCornerRadius.m */; };
+		1CA465251BE25636AC499D1FD2AC7664 /* UIView+SYZCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 07581A35140F5D491D8CC551FF741E7C /* UIView+SYZCornerRadius.m */; };
+		1E1FA6422584B08E44613424BAB58B8F /* UITextField+SYZUIKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF34B6ABBF17680BA98F1AC321C8E02 /* UITextField+SYZUIKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EFB1265B710768D690CA2BC23164960 /* SYZTimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 843766BD763496E44D4549D6A9B9F7D2 /* SYZTimerProxy.m */; };
+		1F9D921A8E3E29F1EE2F883DD2440DB1 /* NSMutableArray+SYZMutableArrayAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F01220355F1584ED9E606D1CA8FD3E /* NSMutableArray+SYZMutableArrayAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21C2F702FCAA88BCC9C575E5A729E323 /* UIBarButtonItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = CCCB916DF231E4BFBEB4E89C390A3FC8 /* UIBarButtonItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22583A2C06DA718DABC6DB8FA89363A3 /* UIResponder+SYZEventAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = B8BA497D4769BB47AA527544B2F88CD3 /* UIResponder+SYZEventAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22D3DB9696797A1F1A4F88D74D622C33 /* UITableView+SYZTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8281C5DAAC33C7104D63E2472D9E04ED /* UITableView+SYZTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23A51E382EFA94A773D5BDD9C4B9D86C /* SYZResponserBlockTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F46BB0C932455FF9AFE69253312FC15 /* SYZResponserBlockTarget.m */; };
+		23AA140DDAD22357E7C7B1EF498208AC /* NSMutableArray+SYZMutableArrayAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB9AF326B3BADEC9FAD6B1C7C7CF23F /* NSMutableArray+SYZMutableArrayAdd.m */; };
+		2420A15BFFBA91F8C17381936312EDFB /* NSObject+SYZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD40DBA10F5948A54AF146B9F096DB5 /* NSObject+SYZObject.m */; };
+		2538EEF4B897D3DD40DD1A838B730BB9 /* NSFileManager+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F889ADF665A4C49259F456971B8D3A8 /* NSFileManager+SYZFoundationAdd.m */; };
+		263D5BA3D124DCC3FC9F77DEA0A63835 /* UIView+SYZLayoutAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4888497D469307B5E6A21D289CCF66 /* UIView+SYZLayoutAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27626A9B43DD5941B5B2968CADC91009 /* SYZFoundationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 802ECC05BAA81BBE401CEA65807A18AD /* SYZFoundationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29BD7C749A2EC8E859CFE8C01EEDE3E2 /* SYZWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 97A1ED7FF9E8CAA7975610FCA56C9F16 /* SYZWeakObject.m */; };
+		33AED51F4CA73086FDE1195235FE24BB /* UIApplication+SYZFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2DB097F9CA89BFE9FB58A592275EC2 /* UIApplication+SYZFoundation.m */; };
+		34991156177A40C177FD492C17251E1D /* NSTimer+SYZTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C00817C80CEDA59120E3D3B6D96794E2 /* NSTimer+SYZTimer.m */; };
+		34BA7608878453499B6F59BFD4BF8E56 /* SYZPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8BD0240CA2D5B57C7B98639C0C62CFB /* SYZPlaceholderTextView.m */; };
+		3781DF0FECD0586F6C47D70D0D8453B4 /* UIImageView+SYZBundleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A06814128BDFFA31055FC5D086EC46 /* UIImageView+SYZBundleImage.m */; };
+		3DACDCAEEC2ED897A047A8B6B00510C6 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7599106D865AAAB6481E5D6CFD078591 /* CYLTabBarController.m */; };
+		3E63D126C368ECA40A41BB7F639AF531 /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 42156625DB7DC14F3991CCD879E06F8B /* UIView+CYLTabBarControllerExtention.m */; };
+		3E7EAAA865B450E1F34F33A7BC2FBD1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B5E4C0E068F663A77D788E36F149EF /* Foundation.framework */; };
+		4105FC6CDC8134A1770C0B7D341A57D3 /* SYZUIKitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F742ADE4520D19C59B8ACBD5D16C294 /* SYZUIKitView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42E593C63A4F089CBE193C4DBFFC7DEF /* SYZUIKitCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CC781F60639FACACA1C54D81B0A057 /* SYZUIKitCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459A64EE564D046FC6E4E2B9B0AC9620 /* SYZTimerProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D13BA9E3D17619573242F8AA64E3CD /* SYZTimerProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487A698B88ABF1974A52B42B0CA546F7 /* SYZWeakObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E942C8FAEECB7C860ED999DDEE93B5 /* SYZWeakObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48E6EC5090B023D5C354306582369904 /* SYZUIKitMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B790219CB7C3E0670B1B64069208EB5 /* SYZUIKitMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ABF86547F79591DE45817FBC67F3F6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B5E4C0E068F663A77D788E36F149EF /* Foundation.framework */; };
+		4B026665CE9BBDCB10327E6578A8CC70 /* NSScanner+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EF0003F216663BBBCF1472C44BEFB /* NSScanner+SYZFoundationAdd.m */; };
+		4C6352DF1DE5D3491E8AA5FEC2FE05B6 /* UITabBarItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 443B46FEFE41B00F7E9C7812901057FD /* UITabBarItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DEA5B61817933F29C4737157CFC864D /* SYZUIBasekit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E469DCC0ADF03BA06BE142C1ED6AF30B /* SYZUIBasekit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DFA5C76D088FCFA333D4E93FD56202E /* SYZUIKitSafeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F3168544EBCF2F98CD412EE65DFD53 /* SYZUIKitSafeModule.m */; };
+		4F5E29CFC62BDDCC5B50270F74EE5E1C /* CYLTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B972CD7808737C2AC4140C2C24CA4703 /* CYLTabBarController-dummy.m */; };
+		5263C1E73F4B361633ACCC9ABAF2BB0C /* UIBarButtonItem+SYZTargetActionAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = BD7E2BB5A9246B3AA84AE01F0E6B893F /* UIBarButtonItem+SYZTargetActionAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52896A8292E572C2CC067B88FE167A01 /* NSHTTPCookieStorage+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FB24DFC59C15AF57FA5791C33CFBF01B /* NSHTTPCookieStorage+SYZFoundationAdd.m */; };
+		54650981F1470C2D1995B088B6CE621D /* CYLBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4857B877E6EEA1D570F26447F5DF15B9 /* CYLBaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54FA6C65302FA213FC747C315F8A1394 /* SYZUIBasekit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF85F3853EBF6B78399E1CEC680C260 /* SYZUIBasekit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567E796359705BE0E4DDE4BFBBA72F64 /* Pods-SYZAppDelegateModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6B6D155432568595200F6096BC9DF6 /* Pods-SYZAppDelegateModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56ECE6EB45004B06D0ECAD3745A63998 /* SYZMultipleUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DEFE9EEED4D21BFFD1CD1CA4409BF54 /* SYZMultipleUIKit-dummy.m */; };
+		5870C7766BDA861486A7FE56F501000B /* UIViewController+CYLNavigationControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 47167F0FCCBAF1AF08024407050B3129 /* UIViewController+CYLNavigationControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A7C2A65DD47DF84E0785B1EA940ED2A /* NSSet+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 541E9868EC0E4DFB8DB91B4E5FA2ECE1 /* NSSet+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BD4308C5C401EB6C717C5C35BF4C7B4 /* NSDictionary+SYZDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FFF06E5C6546275BAD7ABD787E4E18 /* NSDictionary+SYZDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DDBF75EC9678657A000BBB9FE0D9382 /* UITabBarController+SYZTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA544DD17A4FB054580DF0F7EF136BC /* UITabBarController+SYZTabbarController.m */; };
+		629C7050C3C20C5E89C8F71E483EDF7E /* Pods-SYZAppDelegateModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76FA87BD404847B2C85B2F53DA7EA5E /* Pods-SYZAppDelegateModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632428DE8C0C5D6FA94356B636C9BFFF /* CAAnimation+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = C1ED6D9717CDEECA897D44133B345010 /* CAAnimation+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64B3F234F102E2AEB26714DDFDD34BC3 /* UITabBarController+SYZTabbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 645BC47B0E29681D42D38C6DE24EF4B3 /* UITabBarController+SYZTabbarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		662F6BD1C0036E29E34B08438B520FF4 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E029AA82FEBFFF79BC9F8EA3D0FE5E /* UITabBarItem+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		673B3B34DF07349A02B95552A69F5FB2 /* UIButton+SYZImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE9E0D82E08DA6784ED0E8A945412E8 /* UIButton+SYZImageTitleSpacing.m */; };
+		67930CB0E09798559B853ECA473FD45F /* CYLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 18ADFA5A30A5E8DFF80EDFB7C965E525 /* CYLConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6846FF8BAC5B337CD1DB627A6140A933 /* SYZPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EC8C0E6A5580B967ABFDD863DE02F /* SYZPlaceholderTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69084DB738303E7A5768EFDD5498D36F /* UITextView+SYZUIKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D485F02E5FECBAFA34E23C8EB95B11AE /* UITextView+SYZUIKitAdd.m */; };
+		69A66E7927A445DAA9512F6F4F2731E9 /* UIView+Shadow.h in Headers */ = {isa = PBXBuildFile; fileRef = FF1510D3685047D372E97875DC64B757 /* UIView+Shadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69D90F2A1CE7A51BE74136A2CA74E700 /* SYZUIKitSafeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B96C8DF0F871DFA0467470C37597B2 /* SYZUIKitSafeModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A414B49B8D72D4E2C5D911D420CE3AA /* NSBundle+SYZBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 063A6F3F11E04D50FCC720BC65691449 /* NSBundle+SYZBundle.m */; };
+		6CAE30FF1C0F5439B0BDFCB621820D1D /* UICollectionView+SYZUIKitAddValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C696F534B1EFDBB484DFDE952BC99DDB /* UICollectionView+SYZUIKitAddValidation.m */; };
+		6D90774CD1E59C733DC6071672D28ACB /* SYZUIKitButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E32289492A73202D4CAA38EBB270BE /* SYZUIKitButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E394BD1B1FE0B42A4835B0ACBF385D9 /* UIViewController+SYZRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5703F1FAA756EFCDD002B842F102FF /* UIViewController+SYZRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FEF66DAA5C9103AB6D9E78BC197C870 /* UIControl+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = A771D8FE5438C8344B8FD848CD3E3759 /* UIControl+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7013C6D6B955FEF68A5EB59AA6D629F2 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 561C114C716938F7155556584F37A659 /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		706B966B9DFF197721230374642B34C7 /* UIScrollView+SYZUIKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AB69BB4B6BE06AF1B5F94AF8184F1B50 /* UIScrollView+SYZUIKitAdd.m */; };
+		7155AC43DD8C2CBB9731448F49CB4196 /* UIWebView+SYZUIKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 71802FC47688B802B68D8B7B8D10938D /* UIWebView+SYZUIKitAdd.m */; };
+		71DCFF8B0DBECC98EC023A0EAB152DCB /* UITableView+SYZUIKitAddUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 815E322DB2CEE1C08331305A19A189EB /* UITableView+SYZUIKitAddUpdate.m */; };
+		74D691026038FA592F92F205DE29EB98 /* UICollectionView+SYZCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 337FFBB814AD24CF9651535E79EB9657 /* UICollectionView+SYZCollectionView.m */; };
+		74ED0F4B4B350CE1AD27918A9AE147C9 /* CYLBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D5BBFBEFAC1FB551661E3BFB2D0C9A /* CYLBadgeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76575713FFB91C3DB7882F4021F0AF35 /* NSAttributedString+SYZAdditon.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA852D3E22364CCCAD8C428B14B2F95 /* NSAttributedString+SYZAdditon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7748E0204E4A4F59626C7B01D48AB5AA /* NSNumber+SYZNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 59ACA6FBBC97919DFDB162E9661D2CD6 /* NSNumber+SYZNumber.m */; };
+		785DF51880CBC6A2F1AE10ADF416AE14 /* UITabBar+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62E304963FFAE4C7555743B68F518C /* UITabBar+CYLTabBarControllerExtention.m */; };
+		78BDE471541E82DBB682013FD41B665E /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB662D3F81A74EC699D607AD7AB7DCD /* CYLTabBar.m */; };
+		798207922C03A92C016903BBA7908AC9 /* UIDevice+SYZDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 9292C339F1336D551EA8086AEE886EBB /* UIDevice+SYZDevice.m */; };
+		7B2480020E0BF8788574FA60440E19ED /* UIResponder+SYZEventAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6A1B8889FCF58233629DFCAD7E3EF /* UIResponder+SYZEventAdd.m */; };
+		7B896117C9F20B0A463A405094E0348C /* SYZUIKitTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E91B4F10EE054CD2485D99DB212444 /* SYZUIKitTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CB833DA54F0710A450AFC5558878286 /* UIFont+SYZBUAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A60DDCBCFDA3E83350CFDF09C7B30D /* UIFont+SYZBUAddition.m */; };
+		7DC7C7D55966DC64080BDFE17A10D350 /* UINavigationController+SYZNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386A05DF0935C5BB4CB75472220CA0B6 /* UINavigationController+SYZNavigationController.m */; };
+		7E1C9895DEBA26FABD29FDE4849267BA /* UIImage+SYZUIKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AD4F99319BA6EA1CC0F06CB182DC1B6 /* UIImage+SYZUIKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		810E9120FEE183455EBAA1DB35181C59 /* UITextView+SYZUIKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = FA73CA05C647B664019A3E9CF28973DE /* UITextView+SYZUIKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8320538A1E9E03339282FF513CA236C4 /* UITapGestureRecognizer+SYZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = F501ED7B573F0F89844000034589993F /* UITapGestureRecognizer+SYZAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84CE80697E7616E5AFDC93314BEFCE9A /* SYZOriginAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F41E772583959B0D369B73327B0A3AF /* SYZOriginAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F6E6D48AD645CBD59A3F9ECB93815F /* UITableView+SYZUIKitAddValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 73669888AF5F650CC0EEA28A3D0ABA16 /* UITableView+SYZUIKitAddValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87DAEE2AB4EFA3F56BCB401767973D5A /* UITabBarItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A08CBD920E3C4DC2C3F7C43DAD3F2 /* UITabBarItem+CYLBadgeExtention.m */; };
+		8963E84C4F779CDF5915FEA3A3AD83D1 /* SYZAppDelegateEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C42C8C88FC82E03AB5923DC876F93A64 /* SYZAppDelegateEventDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AC02876AD22AC0C13934613ECA2FAFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B5E4C0E068F663A77D788E36F149EF /* Foundation.framework */; };
+		8BC41B31A6EA91BDBAA06BC904CFE8CB /* UICollectionView+SYZUIKitAddValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = A85C5C9F7AF8CDE992FE2A82636FE2D6 /* UICollectionView+SYZUIKitAddValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CBFFEC501495703B71E70524308FDDC /* CAAnimation+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C369C64F180CA23F35A91C6EC37AB10 /* CAAnimation+CYLBadgeExtention.m */; };
+		8DF1909505E41C4A59B9026C9EBC6786 /* NSTimer+SYZTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D35FE6EAE6765F245F3AEE56352A4268 /* NSTimer+SYZTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E10C82DDF9CDA6923D7BD955D48A824 /* NSException+SYZException.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BF2BE44C99FAB2EA2D1F1B64BD029C /* NSException+SYZException.m */; };
+		8EAFB94C9248C6A057A1476B99BFCD08 /* SYZMultipleUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BE14E7F621B6D91A1691DC92192C7C /* SYZMultipleUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F9F0B696D92966C11C3913D7CD3A50F /* SYZFoundationShorthandMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = B4872C4A2F4C65DF1F40D118D09742CE /* SYZFoundationShorthandMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9196E9CD6CBE70D105AF403C2AC54CE0 /* UITapGestureRecognizer+SYZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DBECE1EE370CCC17AD8823D9F27826 /* UITapGestureRecognizer+SYZAddition.m */; };
+		91D5215AD33CECE3B10D572877E5E08F /* NSBundle+SYZBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DDC4EDF922A75C96A2C0AA08A003AD /* NSBundle+SYZBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9293F9BFF1B87072DDFBE6E36820A8BD /* NSDate+SYZDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857E273EB15C993729FBB8F2D4C8F3A /* NSDate+SYZDate.m */; };
+		93017C4706A80265C071EF684AC7C7BE /* SYZTargetActions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C0A2FB54B4CC6C5A757DE47B82BF92 /* SYZTargetActions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93A44E198E4024A4CE49D0D0E05ADA57 /* Pods-SYZAppDelegateModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D824A834F53EBF45F1BE705E81D2270 /* Pods-SYZAppDelegateModule_Example-dummy.m */; };
+		95810DB7C6E3B3BB484C5D93CD182DA0 /* UIButton+SYZButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C860106B47DF64D7F72C90C5805E502F /* UIButton+SYZButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95D56D08BE239B1723FC59CF750F13A5 /* SYZMultipleUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47A5906A2E9CDD9CE357B6B8C99D512D /* SYZMultipleUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95F63932D87D966F8DD6482FF0014FCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F7DD577CEFE572014F60DEADA8ED79 /* UIKit.framework */; };
+		96117BC87E0A960DF821ED1EA7085686 /* UIImage+SYZUIKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A32C626D74494A8B458A80A2EEA6D11 /* UIImage+SYZUIKitAdd.m */; };
+		96221B00B263F0A57FC4CDC5A5ED30C5 /* NSArray+SYZArrayAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDDA80049BCFE342CF9BC2B84638F02 /* NSArray+SYZArrayAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B9F4417BC413C77FB9C3B0BD31612B4 /* UIApplication+SYZFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFD80CC1499AE6CFFB854E65F9A8757 /* UIApplication+SYZFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C1558A960B6FDF9A5EDBD046A93C346 /* Pods-SYZAppDelegateModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0178E967FFC4364A534CAD17CD86C /* Pods-SYZAppDelegateModule_Tests-dummy.m */; };
+		9C519909DE6A245AB72559720E162716 /* SYZUIBasekit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAAB14CEAAB6DA4CAC91E50BAD2C127B /* SYZUIBasekit.framework */; };
+		9D1E0CE954B124FB605C02456B8862A6 /* CYLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6AFF1E51B7BA121B393667DA615795D /* CYLBaseTableViewController.m */; };
+		9D2053C5BE5EF3E7B111E0A027E61CDE /* UIGestureRecognizer+SYZTargetActionAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DE3D2F9B4CC4CB3F15650735A28AF9 /* UIGestureRecognizer+SYZTargetActionAddition.m */; };
+		9DAE950DCB4FB1F7D8957C6C3A399491 /* UIButton+SYZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256A05D09E3B48DA632A7A3FA5B4D40 /* UIButton+SYZButton.m */; };
+		9EFC1C7E5B6FA5B6C62BE619FDF70604 /* UIViewController+SYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329532B32A59555D37D471D5E35AB679 /* UIViewController+SYZViewController.m */; };
+		9F77DD38AAC9E9EA2DDF1EDB57A2217C /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F2998D31F81F76518B5AA988B81DC2 /* UIControl+CYLTabBarControllerExtention.m */; };
+		9FC8E57CB5A958F1B5667029998CF1DB /* UITableView+SYZUIKitAddValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075FF1F2EE58925913EE2669ED50CD0 /* UITableView+SYZUIKitAddValidation.m */; };
+		A0BC10CDF135B83C52EFE5D8250DE03B /* SYZUIBasekit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A480FE624C71C9D0E1B07D8A26F4AA /* SYZUIBasekit-dummy.m */; };
+		A11AE117B6C1456C4B8AC7020A9BA14F /* NSString+SYZString.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E7CB5415BC97CC1E594064B31A324F7 /* NSString+SYZString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A174C0750DDF4DC879D9E02D43215567 /* UIControl+SYZTargetActionAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = E65B8B706F0BE897EF6F6A0FF7722BFD /* UIControl+SYZTargetActionAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19292B4A89F417ACD27A3FB956D5253 /* NSObject+SYZObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4558185B5068A8AF617F53FFF10FD1 /* NSObject+SYZObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2383EFFF58D694B2B504935FB0C37EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B5E4C0E068F663A77D788E36F149EF /* Foundation.framework */; };
+		A6D0EB36105824A380A400E50329A9C1 /* CYLTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AB01F71FB309E6387AECCCBB447687 /* CYLTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9A4302A38CCB84B81B1AD838EB395F4 /* NSDateFormatter+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CFC6C37E3FEBD0A49925F17B149AD63 /* NSDateFormatter+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABA361AB1CFFB4D5EAD4C628FD92202B /* CYLTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DFF452FE71703E5D4C4647D995C612 /* CYLTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4B59B314A7974B57C3698A176A8911 /* NSScanner+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 166C62EA55C9072D94ECC0FBED39EC3B /* NSScanner+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9B115F6362094E62E7888EE610A0D7 /* UIView+SYZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E54A923AEF2BD5955A8790F9EAF5390 /* UIView+SYZAddition.m */; };
+		AE7CB0C385FE37A5F5595CEF3511F546 /* UIViewController+SYZViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2C3FBD23466721FD8C96AD028B9779 /* UIViewController+SYZViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B09A7F05B9C1FB3F728DD9C9BA0240DD /* UIView+SYZCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E049EF61791752EB37077B612EEF290 /* UIView+SYZCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0B00403D987ADD721D449BC8D4AB8BF /* UIButton+SYZImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2C14BEC982A1E0D0F85F99C8D4E77F /* UIButton+SYZImageTitleSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2296E20DF5C81581A582A84C6316889 /* NSSet+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C18548ACBBAEBC80CFC739ED1625288C /* NSSet+SYZFoundationAdd.m */; };
+		B3309356017EAA50D222A5470C758FE6 /* NSNumber+SYZNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = C57E36C34D133AE8625E0A8E31BFFB65 /* NSNumber+SYZNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6FBACFCF875E9862BFAD9C886ECA4EB /* UIWebView+SYZUIKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 092F8C3509186AFEBFC1BCA617186DA7 /* UIWebView+SYZUIKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B776B9081E2866E85442B76346114A9D /* UIView+SYZLayoutAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F865BBE6E0CC5CE8800641D5EE1AFD9 /* UIView+SYZLayoutAddition.m */; };
+		B8AA2B6A723EF03F4DE28D98A9CC7496 /* SYZUIBasekit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAAB14CEAAB6DA4CAC91E50BAD2C127B /* SYZUIBasekit.framework */; };
+		BA6E5A19FB96F5A368FB20C58F12153D /* UIBarButtonItem+SYZTargetActionAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFEAA1C2BC6921A823499CFF1FC9FAF /* UIBarButtonItem+SYZTargetActionAddition.m */; };
+		BB0721E76AE0A2DE4F938D2AC2E0EE2E /* NSDate+SYZDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 859D6B5CA1FE3C046FD3B398254B00DA /* NSDate+SYZDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0D3B2923A76E9E93EC26A239A1D439 /* UIControl+SYZTargetActionAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 901E54F63E84EFC5926C69FC370E171B /* UIControl+SYZTargetActionAddition.m */; };
+		BFD4912E07E83598E34C070D5F17B002 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1533D6A205A0F7A3E8CF45958B09F84B /* CYLPlusButton.m */; };
+		C0635DD41282203CBCD2DCC091EC8647 /* NSURL+SYZURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F51796FBFB6DFB6675317A102ABDCFB1 /* NSURL+SYZURL.m */; };
+		C1D8237607BBC48360DA33846ED1563E /* UIView+SYZBundleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD40655CA6DFE04DAB4D2116967F0C0 /* UIView+SYZBundleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2598E3372318F2564EB749C11DFE957 /* CYLBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E20E1B8C301B0CE6EDCDDEDC28BA050 /* CYLBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C35E1C1C0453ECE0542E51071170B057 /* UIImageView+SYZCornerRadius.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3F69AA24FC798660E783F1605F58E9 /* UIImageView+SYZCornerRadius.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3EC325A6A52AE601ADF002121FC7F7A /* UITableView+SYZUIKitAddUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 899FB5311A28BBFEF90332A6EA714345 /* UITableView+SYZUIKitAddUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A847280E2C845F8E777FC216D83CF1 /* NSJSONSerialization+SYZUIBaseKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = B87C2C6FE76056C02380264A5D694482 /* NSJSONSerialization+SYZUIBaseKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C554D35BE95E808B2FB5C8196194393C /* UIBarButtonItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = F9535C6FB40BA09D13C407C7F35F209B /* UIBarButtonItem+CYLBadgeExtention.m */; };
+		CC7C10B7B56C233619CE4143013AC642 /* NSString+SYZString.m in Sources */ = {isa = PBXBuildFile; fileRef = C262DF737F82F8DBA3EA4A17D21C642A /* NSString+SYZString.m */; };
+		CD0B3692EC3D3B03FB6A0267A0594B03 /* UIGestureRecognizer+SYZTargetActionAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F848B5D3C8665878781F98283A1B26 /* UIGestureRecognizer+SYZTargetActionAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE866361100BB8C57A442291CE50DEB9 /* SYZDateEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C960CD490EFB2655C209511BE68C11 /* SYZDateEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA77F9C38FC14AC4F4930039F837FAC /* NSJSONSerialization+SYZUIBaseKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6923129F44BF0A5D3CB0BDA984300923 /* NSJSONSerialization+SYZUIBaseKitAdd.m */; };
+		CFAAF8E126B52D860EE099B0696CC75D /* SYZAppDelegateModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A067AF0D8F2292A4745C6C1B9F426BA3 /* SYZAppDelegateModule-dummy.m */; };
+		D57504BDD813C24A41ED3597C1BAD0FD /* NSAttributedString+SYZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AEEC6F2780A815751C0F5F5FFA576A /* NSAttributedString+SYZAdditon.m */; };
+		D9BCEB62A3DD838BB18DEB024F0A380A /* UIButton+SYZTouchBounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 395841849A1696D1C3B221C14CE6E2C6 /* UIButton+SYZTouchBounds.m */; };
+		DB31F2EDA70E4B1EB680BB03BDF98518 /* UIViewController+SYZRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC3E96F458DD5560B22BD1ADA290E1F /* UIViewController+SYZRouter.m */; };
+		DD4067412A138F3AD0C578CA0CF85E01 /* UIFont+SYZBUAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DC9158189537C375466420A927CD02 /* UIFont+SYZBUAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDEBE56E3DF0749BC573C8E84386D005 /* UIView+SYZUIKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C43C435A400C7D9C41F83F9F305BB9 /* UIView+SYZUIKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE761A384E7A29D078FE5B351A193675 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B5E4C0E068F663A77D788E36F149EF /* Foundation.framework */; };
+		DE8D0F73B9ADB45B7327DE044CA0E679 /* SYZOriginAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F60B1E0D7CC50B1A16B9EBF861FFDFC /* SYZOriginAppDelegate.m */; };
+		E13F75BCE080CC53054B93DDD0168529 /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E05389577AA0AA80F17D31E66A1568CD /* UIViewController+CYLTabBarControllerExtention.m */; };
+		E24D25BE02DC5431113E416D4DC94516 /* UIView+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = F738260A007EB98A4E6D575429DC9761 /* UIView+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E53D2CD7CCBE34DB7252C78E95E5F2A1 /* NSFileManager+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D77EEFBC35C0A15FD85AAA7EE24B6F5E /* NSFileManager+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E59856FB2E6721B759FA962C4C54B349 /* NSMutableAttributedString+SYZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 237FA854C87A236D8A1E69AA680D46C6 /* NSMutableAttributedString+SYZAdditon.m */; };
+		E6F9A8F8972ABF671AF6A3AE12CEE7D2 /* UINavigationController+SYZNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E1EA52BC7DC8BBDFE47F85BEE77D00 /* UINavigationController+SYZNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E948E2EC82C6DA9D4A9195F4AE4AE7C5 /* UIScrollView+SYZUIKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D424DCAE6ECE7B4153AFEC0F000C588 /* UIScrollView+SYZUIKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBEE9056A455FCA885B4446ED59EE3C8 /* UITabBar+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 67A5C7F422AA16B287B1B7373990D8A1 /* UITabBar+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC723EBDF994D4E35705064BFD9ED7CF /* SYZAppDelegateModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DAC67479ADA442A8785297A43B8D828 /* SYZAppDelegateModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFA36AADC7B25AB7BFC7262A2ED93C5B /* UITextField+SYZUIKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE1B924B8E38A77AA293ABFFC88BBF /* UITextField+SYZUIKitAdd.m */; };
+		F077978D44CB2BB06F85F39D0B63F981 /* UIView+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 85372D24048D859352B26956E7E8A1A1 /* UIView+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F179CA3542FF11FA5268F6C9D551C4C6 /* CYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68E3B194C554B886E689D1097B8B635 /* CYLBaseViewController.m */; };
+		F4D9AF048D56B251B58EA4CF290A44D5 /* SYZAppDelegateEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F818277553430D76BA7096AAF5B93B /* SYZAppDelegateEventDispatcher.m */; };
+		F62D3EE38E666768EBABE6A9ABBAB9FD /* NSURL+SYZURL.h in Headers */ = {isa = PBXBuildFile; fileRef = E99FCACCD982FA2AEF3C6416A23C3BEF /* NSURL+SYZURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6A6DA6B3C9A62564F6ADE6C767F677F /* UICollectionView+SYZUIKitAddUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CB8B9B5A8FE763D2188E471B81803B /* UICollectionView+SYZUIKitAddUpdate.m */; };
+		F6D4E77740378F48040F094046F2BE7E /* UIViewController+CYLNavigationControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBEA616930411A20E1259CA5C0B3823 /* UIViewController+CYLNavigationControllerExtention.m */; };
+		F710496822423B22EEB32599FEF39E80 /* SYZAppDelegateModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 190486DC5997103BB924A7C6C870909B /* SYZAppDelegateModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA822862753AFBF96385C3DEC5D4EE78 /* UIView+SYZAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 22AB307629832EBA1F8177C0B7E1D5EF /* UIView+SYZAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB95FC138A431C3B8E639C66153BDFC /* UIView+SYZUIKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3EAD0CF25CB0BE5B88A6EF711968B /* UIView+SYZUIKitAdd.m */; };
+		FACCF44623659EA502D3E4D5C0100982 /* CYLTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 514E25CFC6641FBD68229DCCA8203819 /* CYLTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB5127304B2671D88F9203A07F94DCE9 /* SYZDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E92A69EAB6FD9F2C61B0EA199E43C3 /* SYZDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCE93182E90362E7DE396A2665E8F34D /* UIDevice+SYZDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = DF4AA0F3B941602BF8E568A3308FFC13 /* UIDevice+SYZDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEBEE9D8126B7DA076B765375BD48227 /* UIViewController+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = C72D625D0AE72C8E839DF6D808A1FF6C /* UIViewController+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7139C04D3E6C4BF4B2B0548CB84D4E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5B5B9E856B19231AAD51664D017234;
+			remoteInfo = SYZUIBasekit;
+		};
+		C128814D241BF7A2E42547640FE7610D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA1CB56BF5C5AB8060FEA3D5F183E949;
+			remoteInfo = SYZAppDelegateModule;
+		};
+		C669D8FD09F996BAA7F6F240800DA911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5B5B9E856B19231AAD51664D017234;
+			remoteInfo = SYZUIBasekit;
+		};
+		CC790820FB9382EB5100289079160883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 872386DD73FCCD7FCE7CC8A6C7087C51;
+			remoteInfo = SYZMultipleUIKit;
+		};
+		D6F1849CADBBE5E7A1C423EC7D397D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F5CDF8866918876CE29840ACC9A275B;
+			remoteInfo = CYLTabBarController;
+		};
+		EF896061651DA7DA666972079AF23694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5B5B9E856B19231AAD51664D017234;
+			remoteInfo = SYZUIBasekit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007BBB322423B6447CB82F9945A01AF6 /* Pods-SYZAppDelegateModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZAppDelegateModule_Tests-resources.sh"; sourceTree = "<group>"; };
+		0256827632235EB057C68EE3E3CF2FC6 /* Pods-SYZAppDelegateModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZAppDelegateModule_Example-resources.sh"; sourceTree = "<group>"; };
+		02C89710C63D7ABDBF2DBAC4903778E3 /* UIView+SYZBundleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SYZBundleImage.m"; path = "SYZMultipleUIKit/Classes/SYZUIImageView/UIView+SYZBundleImage.m"; sourceTree = "<group>"; };
+		063A6F3F11E04D50FCC720BC65691449 /* NSBundle+SYZBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+SYZBundle.m"; path = "SYZUIBasekit/Classes/SYZBundle/NSBundle+SYZBundle.m"; sourceTree = "<group>"; };
+		07581A35140F5D491D8CC551FF741E7C /* UIView+SYZCornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SYZCornerRadius.m"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+SYZCornerRadius.m"; sourceTree = "<group>"; };
+		07C960CD490EFB2655C209511BE68C11 /* SYZDateEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDateEnum.h; path = SYZUIBasekit/Classes/SYZDate/SYZDateEnum.h; sourceTree = "<group>"; };
+		0853A9CDEF09E341203B5A9CA932558A /* UITableView+SYZTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SYZTableView.m"; path = "SYZMultipleUIKit/Classes/SYZUITableView/UITableView+SYZTableView.m"; sourceTree = "<group>"; };
+		092F8C3509186AFEBFC1BCA617186DA7 /* UIWebView+SYZUIKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+SYZUIKitAdd.h"; path = "SYZMultipleUIKit/Classes/SYZUIWebview/UIWebView+SYZUIKitAdd.h"; sourceTree = "<group>"; };
+		0BF85F3853EBF6B78399E1CEC680C260 /* SYZUIBasekit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIBasekit.h; path = SYZUIBasekit/Classes/SYZUIBasekit.h; sourceTree = "<group>"; };
+		0E18805BCFB7CA9063279A266F50FE27 /* NSHTTPCookieStorage+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSHTTPCookieStorage+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSHTTPCookieStorage/NSHTTPCookieStorage+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		1075FF1F2EE58925913EE2669ED50CD0 /* UITableView+SYZUIKitAddValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SYZUIKitAddValidation.m"; path = "SYZMultipleUIKit/Classes/SYZUITableView/UITableView+SYZUIKitAddValidation.m"; sourceTree = "<group>"; };
+		10AB01F71FB309E6387AECCCBB447687 /* CYLTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		10B126F8FCEEE82DCAB43CF8DF221ACC /* SYZAppDelegateModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SYZAppDelegateModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		14D13BA9E3D17619573242F8AA64E3CD /* SYZTimerProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZTimerProxy.h; path = SYZUIBasekit/Classes/SYZTimer/SYZTimerProxy.h; sourceTree = "<group>"; };
+		1533D6A205A0F7A3E8CF45958B09F84B /* CYLPlusButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLPlusButton.m; path = CYLTabBarController/CYLPlusButton.m; sourceTree = "<group>"; };
+		166C62EA55C9072D94ECC0FBED39EC3B /* NSScanner+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScanner+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZScanner/NSScanner+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		180BC75D42D93560044FB9A9F2E3F627 /* CYLTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CYLTabBarController.framework; path = CYLTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18ADFA5A30A5E8DFF80EDFB7C965E525 /* CYLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLConstants.h; path = CYLTabBarController/CYLConstants.h; sourceTree = "<group>"; };
+		190486DC5997103BB924A7C6C870909B /* SYZAppDelegateModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZAppDelegateModuleProtocol.h; path = SYZAppDelegateModule/Classes/SYZAppDelegateModuleProtocol.h; sourceTree = "<group>"; };
+		1E54A923AEF2BD5955A8790F9EAF5390 /* UIView+SYZAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SYZAddition.m"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+SYZAddition.m"; sourceTree = "<group>"; };
+		1EF6A1B8889FCF58233629DFCAD7E3EF /* UIResponder+SYZEventAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+SYZEventAdd.m"; path = "SYZMultipleUIKit/Classes/SYZUIResponder/UIResponder+SYZEventAdd.m"; sourceTree = "<group>"; };
+		22AB307629832EBA1F8177C0B7E1D5EF /* UIView+SYZAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SYZAddition.h"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+SYZAddition.h"; sourceTree = "<group>"; };
+		237FA854C87A236D8A1E69AA680D46C6 /* NSMutableAttributedString+SYZAdditon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+SYZAdditon.m"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSMutableAttributedString+SYZAdditon.m"; sourceTree = "<group>"; };
+		274035B22A8C929FCB2D81CA92887BB4 /* SYZUIBasekit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZUIBasekit.modulemap; sourceTree = "<group>"; };
+		2AD4F99319BA6EA1CC0F06CB182DC1B6 /* UIImage+SYZUIKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SYZUIKitAdd.h"; path = "SYZMultipleUIKit/Classes/SYZUIImage/UIImage+SYZUIKitAdd.h"; sourceTree = "<group>"; };
+		2CAA7708085513924AC6EFEAA96E1836 /* NSException+SYZException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+SYZException.h"; path = "SYZUIBasekit/Classes/SYZException/NSException+SYZException.h"; sourceTree = "<group>"; };
+		2CFC6C37E3FEBD0A49925F17B149AD63 /* NSDateFormatter+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDateFormatter+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		2DA686A5121FAA3C8E1CED3A157DAA62 /* Pods-SYZAppDelegateModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZAppDelegateModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3015D6606ADD854D2D716EF53621EC0D /* SYZAppDelegateModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZAppDelegateModule.xcconfig; sourceTree = "<group>"; };
+		31A06814128BDFFA31055FC5D086EC46 /* UIImageView+SYZBundleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+SYZBundleImage.m"; path = "SYZMultipleUIKit/Classes/SYZUIImageView/UIImageView+SYZBundleImage.m"; sourceTree = "<group>"; };
+		329532B32A59555D37D471D5E35AB679 /* UIViewController+SYZViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SYZViewController.m"; path = "SYZMultipleUIKit/Classes/SYZUIViewController/UIViewController+SYZViewController.m"; sourceTree = "<group>"; };
+		337FFBB814AD24CF9651535E79EB9657 /* UICollectionView+SYZCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+SYZCollectionView.m"; path = "SYZMultipleUIKit/Classes/SYZUICollectionView/UICollectionView+SYZCollectionView.m"; sourceTree = "<group>"; };
+		343BA7971C71DFE1129BD194051B8D6F /* Pods_SYZAppDelegateModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZAppDelegateModule_Example.framework; path = "Pods-SYZAppDelegateModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C43C435A400C7D9C41F83F9F305BB9 /* UIView+SYZUIKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SYZUIKitAdd.h"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+SYZUIKitAdd.h"; sourceTree = "<group>"; };
+		36EBECC4E19EDE930CA88844032993F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3727BEB8F8D833F84D2804BFCE19A30D /* CYLBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseNavigationController.m; path = CYLTabBarController/CYLBaseNavigationController.m; sourceTree = "<group>"; };
+		386A05DF0935C5BB4CB75472220CA0B6 /* UINavigationController+SYZNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+SYZNavigationController.m"; path = "SYZMultipleUIKit/Classes/SYZUInavigationController/UINavigationController+SYZNavigationController.m"; sourceTree = "<group>"; };
+		38E029AA82FEBFFF79BC9F8EA3D0FE5E /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		395841849A1696D1C3B221C14CE6E2C6 /* UIButton+SYZTouchBounds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SYZTouchBounds.m"; path = "SYZMultipleUIKit/Classes/SYZUIButton/UIButton+SYZTouchBounds.m"; sourceTree = "<group>"; };
+		39AA070E93BF8814CFC29355D52ACDBE /* SYZAppDelegateModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZAppDelegateModule.modulemap; sourceTree = "<group>"; };
+		3EFFD939AAA7085991A0F2849311743D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3F2DB097F9CA89BFE9FB58A592275EC2 /* UIApplication+SYZFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SYZFoundation.m"; path = "SYZUIBasekit/Classes/SYZApplication/UIApplication+SYZFoundation.m"; sourceTree = "<group>"; };
+		40BC1FF479328A4DC52271AE757A9D3D /* Pods-SYZAppDelegateModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZAppDelegateModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40E91B4F10EE054CD2485D99DB212444 /* SYZUIKitTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIKitTableView.h; path = SYZMultipleUIKit/Classes/SYZUITableView/SYZUIKitTableView.h; sourceTree = "<group>"; };
+		42156625DB7DC14F3991CCD879E06F8B /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		4264E3526A51FF4C3C81FC34B6B5627E /* SYZAppDelegateModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZAppDelegateModule.framework; path = SYZAppDelegateModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		434E7D7776B62DA958CCB9B771D0A6BE /* Pods-SYZAppDelegateModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZAppDelegateModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		443B46FEFE41B00F7E9C7812901057FD /* UITabBarItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		46C0A2FB54B4CC6C5A757DE47B82BF92 /* SYZTargetActions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZTargetActions.h; path = SYZMultipleUIKit/Classes/SYZTargetActions/SYZTargetActions.h; sourceTree = "<group>"; };
+		47167F0FCCBAF1AF08024407050B3129 /* UIViewController+CYLNavigationControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLNavigationControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.h"; sourceTree = "<group>"; };
+		47A5906A2E9CDD9CE357B6B8C99D512D /* SYZMultipleUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZMultipleUIKit-umbrella.h"; sourceTree = "<group>"; };
+		47B96C8DF0F871DFA0467470C37597B2 /* SYZUIKitSafeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIKitSafeModule.h; path = SYZMultipleUIKit/Classes/SYZUIKitMacro/SYZUIKitSafeModule.h; sourceTree = "<group>"; };
+		4857B877E6EEA1D570F26447F5DF15B9 /* CYLBaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseTableViewController.h; path = CYLTabBarController/CYLBaseTableViewController.h; sourceTree = "<group>"; };
+		48E32289492A73202D4CAA38EBB270BE /* SYZUIKitButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIKitButton.h; path = SYZMultipleUIKit/Classes/SYZUIButton/SYZUIKitButton.h; sourceTree = "<group>"; };
+		49440359AB42F34A2237F570218FDE3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4A32C626D74494A8B458A80A2EEA6D11 /* UIImage+SYZUIKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SYZUIKitAdd.m"; path = "SYZMultipleUIKit/Classes/SYZUIImage/UIImage+SYZUIKitAdd.m"; sourceTree = "<group>"; };
+		4AFF390343F85FBD4C185114CCCF0697 /* SYZMultipleUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZMultipleUIKit.framework; path = SYZMultipleUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D824A834F53EBF45F1BE705E81D2270 /* Pods-SYZAppDelegateModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZAppDelegateModule_Example-dummy.m"; sourceTree = "<group>"; };
+		50F7DD577CEFE572014F60DEADA8ED79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		514E25CFC6641FBD68229DCCA8203819 /* CYLTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBar.h; path = CYLTabBarController/CYLTabBar.h; sourceTree = "<group>"; };
+		5256A05D09E3B48DA632A7A3FA5B4D40 /* UIButton+SYZButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SYZButton.m"; path = "SYZMultipleUIKit/Classes/SYZUIButton/UIButton+SYZButton.m"; sourceTree = "<group>"; };
+		541E9868EC0E4DFB8DB91B4E5FA2ECE1 /* NSSet+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		554AC3DEA45D47AE97C479D504175800 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561C114C716938F7155556584F37A659 /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		58E27DA6C9EF8302C104C0D8AC4FDFA0 /* Pods-SYZAppDelegateModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZAppDelegateModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		59ACA6FBBC97919DFDB162E9661D2CD6 /* NSNumber+SYZNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+SYZNumber.m"; path = "SYZUIBasekit/Classes/SYZNumber/NSNumber+SYZNumber.m"; sourceTree = "<group>"; };
+		5B04403EF318BED7075AA44179BD37E9 /* SYZMultipleUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZMultipleUIKit.xcconfig; sourceTree = "<group>"; };
+		5B4558185B5068A8AF617F53FFF10FD1 /* NSObject+SYZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SYZObject.h"; path = "SYZUIBasekit/Classes/SYZObject/NSObject+SYZObject.h"; sourceTree = "<group>"; };
+		5BE9E0D82E08DA6784ED0E8A945412E8 /* UIButton+SYZImageTitleSpacing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SYZImageTitleSpacing.m"; path = "SYZMultipleUIKit/Classes/SYZUIButton/UIButton+SYZImageTitleSpacing.m"; sourceTree = "<group>"; };
+		5C369C64F180CA23F35A91C6EC37AB10 /* CAAnimation+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+CYLBadgeExtention.m"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		5DEFE9EEED4D21BFFD1CD1CA4409BF54 /* SYZMultipleUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZMultipleUIKit-dummy.m"; sourceTree = "<group>"; };
+		5E7CB5415BC97CC1E594064B31A324F7 /* NSString+SYZString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SYZString.h"; path = "SYZUIBasekit/Classes/SYZString/NSString+SYZString.h"; sourceTree = "<group>"; };
+		5F46BB0C932455FF9AFE69253312FC15 /* SYZResponserBlockTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZResponserBlockTarget.m; path = SYZMultipleUIKit/Classes/SYZTargetActions/SYZResponserBlockTarget.m; sourceTree = "<group>"; };
+		5F60B1E0D7CC50B1A16B9EBF861FFDFC /* SYZOriginAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZOriginAppDelegate.m; path = SYZAppDelegateModule/Classes/SYZOriginAppDelegate.m; sourceTree = "<group>"; };
+		5F742ADE4520D19C59B8ACBD5D16C294 /* SYZUIKitView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIKitView.h; path = SYZMultipleUIKit/Classes/SYZUIView/SYZUIKitView.h; sourceTree = "<group>"; };
+		5F889ADF665A4C49259F456971B8D3A8 /* NSFileManager+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZFileManager/NSFileManager+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		637981F9B8D5D4011865C472E57E8157 /* CYLTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-prefix.pch"; sourceTree = "<group>"; };
+		645BC47B0E29681D42D38C6DE24EF4B3 /* UITabBarController+SYZTabbarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+SYZTabbarController.h"; path = "SYZMultipleUIKit/Classes/SYZTabbarController/UITabBarController+SYZTabbarController.h"; sourceTree = "<group>"; };
+		67A5C7F422AA16B287B1B7373990D8A1 /* UITabBar+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UITabBar+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		6923129F44BF0A5D3CB0BDA984300923 /* NSJSONSerialization+SYZUIBaseKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+SYZUIBaseKitAdd.m"; path = "SYZUIBasekit/Classes/SYZJSONSerialization/NSJSONSerialization+SYZUIBaseKitAdd.m"; sourceTree = "<group>"; };
+		6A341650E950E2300E7807F9AC136E3A /* UICollectionView+SYZUIKitAddUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+SYZUIKitAddUpdate.h"; path = "SYZMultipleUIKit/Classes/SYZUICollectionView/UICollectionView+SYZUIKitAddUpdate.h"; sourceTree = "<group>"; };
+		6CFEAA1C2BC6921A823499CFF1FC9FAF /* UIBarButtonItem+SYZTargetActionAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+SYZTargetActionAddition.m"; path = "SYZMultipleUIKit/Classes/SYZTargetActions/UIBarButtonItem+SYZTargetActionAddition.m"; sourceTree = "<group>"; };
+		6D424DCAE6ECE7B4153AFEC0F000C588 /* UIScrollView+SYZUIKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SYZUIKitAdd.h"; path = "SYZMultipleUIKit/Classes/SYZScrollView/UIScrollView+SYZUIKitAdd.h"; sourceTree = "<group>"; };
+		6E20E1B8C301B0CE6EDCDDEDC28BA050 /* CYLBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseNavigationController.h; path = CYLTabBarController/CYLBaseNavigationController.h; sourceTree = "<group>"; };
+		704146B11BD60E6B0CC3E5776AAB4EC7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70E92A69EAB6FD9F2C61B0EA199E43C3 /* SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDate.h; path = SYZUIBasekit/Classes/SYZDate/SYZDate.h; sourceTree = "<group>"; };
+		71802FC47688B802B68D8B7B8D10938D /* UIWebView+SYZUIKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+SYZUIKitAdd.m"; path = "SYZMultipleUIKit/Classes/SYZUIWebview/UIWebView+SYZUIKitAdd.m"; sourceTree = "<group>"; };
+		71AEEC6F2780A815751C0F5F5FFA576A /* NSAttributedString+SYZAdditon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+SYZAdditon.m"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSAttributedString+SYZAdditon.m"; sourceTree = "<group>"; };
+		71BAFD6A878E4B984F7CA7EF8A207796 /* UIImageView+SYZCornerRadius.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+SYZCornerRadius.m"; path = "SYZMultipleUIKit/Classes/SYZUIImageView/UIImageView+SYZCornerRadius.m"; sourceTree = "<group>"; };
+		73669888AF5F650CC0EEA28A3D0ABA16 /* UITableView+SYZUIKitAddValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SYZUIKitAddValidation.h"; path = "SYZMultipleUIKit/Classes/SYZUITableView/UITableView+SYZUIKitAddValidation.h"; sourceTree = "<group>"; };
+		74DFF452FE71703E5D4C4647D995C612 /* CYLTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBarController.h; path = CYLTabBarController/CYLTabBarController.h; sourceTree = "<group>"; };
+		7599106D865AAAB6481E5D6CFD078591 /* CYLTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBarController.m; path = CYLTabBarController/CYLTabBarController.m; sourceTree = "<group>"; };
+		76A60DDCBCFDA3E83350CFDF09C7B30D /* UIFont+SYZBUAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+SYZBUAddition.m"; path = "SYZMultipleUIKit/Classes/SYZUIFont/UIFont+SYZBUAddition.m"; sourceTree = "<group>"; };
+		7E049EF61791752EB37077B612EEF290 /* UIView+SYZCornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SYZCornerRadius.h"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+SYZCornerRadius.h"; sourceTree = "<group>"; };
+		7E4267B43E328B14AB799A6C3D708869 /* UIImageView+SYZBundleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+SYZBundleImage.h"; path = "SYZMultipleUIKit/Classes/SYZUIImageView/UIImageView+SYZBundleImage.h"; sourceTree = "<group>"; };
+		7EA544DD17A4FB054580DF0F7EF136BC /* UITabBarController+SYZTabbarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+SYZTabbarController.m"; path = "SYZMultipleUIKit/Classes/SYZTabbarController/UITabBarController+SYZTabbarController.m"; sourceTree = "<group>"; };
+		7EFD80CC1499AE6CFFB854E65F9A8757 /* UIApplication+SYZFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SYZFoundation.h"; path = "SYZUIBasekit/Classes/SYZApplication/UIApplication+SYZFoundation.h"; sourceTree = "<group>"; };
+		7FE0B00156A4C39B7ABB81D335E02AA8 /* Pods-SYZAppDelegateModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZAppDelegateModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		802ECC05BAA81BBE401CEA65807A18AD /* SYZFoundationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZFoundationMacros.h; path = SYZUIBasekit/Classes/SYZFoundationMacros/SYZFoundationMacros.h; sourceTree = "<group>"; };
+		815E322DB2CEE1C08331305A19A189EB /* UITableView+SYZUIKitAddUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SYZUIKitAddUpdate.m"; path = "SYZMultipleUIKit/Classes/SYZUITableView/UITableView+SYZUIKitAddUpdate.m"; sourceTree = "<group>"; };
+		8256A7BA6AFD25DE0510AC11DB00EE2B /* SYZUIBasekit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZUIBasekit.xcconfig; sourceTree = "<group>"; };
+		8281C5DAAC33C7104D63E2472D9E04ED /* UITableView+SYZTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SYZTableView.h"; path = "SYZMultipleUIKit/Classes/SYZUITableView/UITableView+SYZTableView.h"; sourceTree = "<group>"; };
+		843766BD763496E44D4549D6A9B9F7D2 /* SYZTimerProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZTimerProxy.m; path = SYZUIBasekit/Classes/SYZTimer/SYZTimerProxy.m; sourceTree = "<group>"; };
+		84A8DA67106E29A60D9CAE365A99AF40 /* SYZResponserBlockTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZResponserBlockTarget.h; path = SYZMultipleUIKit/Classes/SYZTargetActions/SYZResponserBlockTarget.h; sourceTree = "<group>"; };
+		84B5E4C0E068F663A77D788E36F149EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		84F800A9B6D3EA3FDF1991DFE05B0FFB /* CYLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseViewController.h; path = CYLTabBarController/CYLBaseViewController.h; sourceTree = "<group>"; };
+		84FBF80238098059FA787F77A9D9426B /* SYZAppDelegateModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZAppDelegateModule-prefix.pch"; sourceTree = "<group>"; };
+		85372D24048D859352B26956E7E8A1A1 /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		859D6B5CA1FE3C046FD3B398254B00DA /* NSDate+SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SYZDate.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZDate.h"; sourceTree = "<group>"; };
+		899FB5311A28BBFEF90332A6EA714345 /* UITableView+SYZUIKitAddUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SYZUIKitAddUpdate.h"; path = "SYZMultipleUIKit/Classes/SYZUITableView/UITableView+SYZUIKitAddUpdate.h"; sourceTree = "<group>"; };
+		8A2C14BEC982A1E0D0F85F99C8D4E77F /* UIButton+SYZImageTitleSpacing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+SYZImageTitleSpacing.h"; path = "SYZMultipleUIKit/Classes/SYZUIButton/UIButton+SYZImageTitleSpacing.h"; sourceTree = "<group>"; };
+		8C6EF0003F216663BBBCF1472C44BEFB /* NSScanner+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSScanner+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZScanner/NSScanner+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		8DAC67479ADA442A8785297A43B8D828 /* SYZAppDelegateModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZAppDelegateModule-umbrella.h"; sourceTree = "<group>"; };
+		8EB662D3F81A74EC699D607AD7AB7DCD /* CYLTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBar.m; path = CYLTabBarController/CYLTabBar.m; sourceTree = "<group>"; };
+		90141AF5C3A09F8DFD9C9959EEB21E7C /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZUIBasekit.framework; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901E54F63E84EFC5926C69FC370E171B /* UIControl+SYZTargetActionAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+SYZTargetActionAddition.m"; path = "SYZMultipleUIKit/Classes/SYZTargetActions/UIControl+SYZTargetActionAddition.m"; sourceTree = "<group>"; };
+		912844F2F582D22543B22B4BC636F604 /* Pods-SYZAppDelegateModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZAppDelegateModule_Example.modulemap"; sourceTree = "<group>"; };
+		9163779A3BE65580A409FA67166E06F5 /* UIButton+SYZTouchBounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+SYZTouchBounds.h"; path = "SYZMultipleUIKit/Classes/SYZUIButton/UIButton+SYZTouchBounds.h"; sourceTree = "<group>"; };
+		9292C339F1336D551EA8086AEE886EBB /* UIDevice+SYZDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SYZDevice.m"; path = "SYZUIBasekit/Classes/SYZDevice/UIDevice+SYZDevice.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96CC781F60639FACACA1C54D81B0A057 /* SYZUIKitCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIKitCollectionView.h; path = SYZMultipleUIKit/Classes/SYZUICollectionView/SYZUIKitCollectionView.h; sourceTree = "<group>"; };
+		96F2998D31F81F76518B5AA988B81DC2 /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		979D6046DABE69EFF640313BBDA12465 /* SYZUIBasekit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZUIBasekit-prefix.pch"; sourceTree = "<group>"; };
+		97A1ED7FF9E8CAA7975610FCA56C9F16 /* SYZWeakObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZWeakObject.m; path = SYZUIBasekit/Classes/SYZObject/SYZWeakObject.m; sourceTree = "<group>"; };
+		9857E273EB15C993729FBB8F2D4C8F3A /* NSDate+SYZDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SYZDate.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZDate.m"; sourceTree = "<group>"; };
+		99E1EA52BC7DC8BBDFE47F85BEE77D00 /* UINavigationController+SYZNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+SYZNavigationController.h"; path = "SYZMultipleUIKit/Classes/SYZUInavigationController/UINavigationController+SYZNavigationController.h"; sourceTree = "<group>"; };
+		9B790219CB7C3E0670B1B64069208EB5 /* SYZUIKitMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIKitMacro.h; path = SYZMultipleUIKit/Classes/SYZUIKitMacro/SYZUIKitMacro.h; sourceTree = "<group>"; };
+		9BA9254C9ABC679EB027DB6EB5D05A3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C94CE8B16CB74B6883F27548E7C2F6D /* CYLTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.xcconfig; sourceTree = "<group>"; };
+		9DCE1B924B8E38A77AA293ABFFC88BBF /* UITextField+SYZUIKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+SYZUIKitAdd.m"; path = "SYZMultipleUIKit/Classes/SYZUITextFiled/UITextField+SYZUIKitAdd.m"; sourceTree = "<group>"; };
+		9E3F69AA24FC798660E783F1605F58E9 /* UIImageView+SYZCornerRadius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+SYZCornerRadius.h"; path = "SYZMultipleUIKit/Classes/SYZUIImageView/UIImageView+SYZCornerRadius.h"; sourceTree = "<group>"; };
+		9F41E772583959B0D369B73327B0A3AF /* SYZOriginAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZOriginAppDelegate.h; path = SYZAppDelegateModule/Classes/SYZOriginAppDelegate.h; sourceTree = "<group>"; };
+		9F865BBE6E0CC5CE8800641D5EE1AFD9 /* UIView+SYZLayoutAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SYZLayoutAddition.m"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+SYZLayoutAddition.m"; sourceTree = "<group>"; };
+		A067AF0D8F2292A4745C6C1B9F426BA3 /* SYZAppDelegateModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZAppDelegateModule-dummy.m"; sourceTree = "<group>"; };
+		A227B2F74A0469D0D8ECB03A1E2BCCF3 /* SYZMultipleUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZMultipleUIKit-prefix.pch"; sourceTree = "<group>"; };
+		A302C5E370E752F2E6BAF8A5EF76B52D /* UIView+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLBadgeExtention.m"; path = "CYLTabBarController/UIView+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		A52A08CBD920E3C4DC2C3F7C43DAD3F2 /* UITabBarItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		A5CB8B9B5A8FE763D2188E471B81803B /* UICollectionView+SYZUIKitAddUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+SYZUIKitAddUpdate.m"; path = "SYZMultipleUIKit/Classes/SYZUICollectionView/UICollectionView+SYZUIKitAddUpdate.m"; sourceTree = "<group>"; };
+		A625AD2D2E5B0EEB5CC01B1F355BD258 /* NSData+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		A6F3168544EBCF2F98CD412EE65DFD53 /* SYZUIKitSafeModule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZUIKitSafeModule.m; path = SYZMultipleUIKit/Classes/SYZUIKitMacro/SYZUIKitSafeModule.m; sourceTree = "<group>"; };
+		A771D8FE5438C8344B8FD848CD3E3759 /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		A85C5C9F7AF8CDE992FE2A82636FE2D6 /* UICollectionView+SYZUIKitAddValidation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+SYZUIKitAddValidation.h"; path = "SYZMultipleUIKit/Classes/SYZUICollectionView/UICollectionView+SYZUIKitAddValidation.h"; sourceTree = "<group>"; };
+		A8BD0240CA2D5B57C7B98639C0C62CFB /* SYZPlaceholderTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZPlaceholderTextView.m; path = SYZMultipleUIKit/Classes/SYZUITextView/SYZPlaceholderTextView.m; sourceTree = "<group>"; };
+		A9E942C8FAEECB7C860ED999DDEE93B5 /* SYZWeakObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZWeakObject.h; path = SYZUIBasekit/Classes/SYZObject/SYZWeakObject.h; sourceTree = "<group>"; };
+		A9F673F4F2B49841B9A4B9E520954D50 /* CYLTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYLTabBarController.modulemap; sourceTree = "<group>"; };
+		AB62E304963FFAE4C7555743B68F518C /* UITabBar+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UITabBar+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		AB69BB4B6BE06AF1B5F94AF8184F1B50 /* UIScrollView+SYZUIKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SYZUIKitAdd.m"; path = "SYZMultipleUIKit/Classes/SYZScrollView/UIScrollView+SYZUIKitAdd.m"; sourceTree = "<group>"; };
+		AD4888497D469307B5E6A21D289CCF66 /* UIView+SYZLayoutAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SYZLayoutAddition.h"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+SYZLayoutAddition.h"; sourceTree = "<group>"; };
+		B020F95FFABB2EC8DDFA60DFD6815E65 /* Pods-SYZAppDelegateModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZAppDelegateModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1DE3D2F9B4CC4CB3F15650735A28AF9 /* UIGestureRecognizer+SYZTargetActionAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+SYZTargetActionAddition.m"; path = "SYZMultipleUIKit/Classes/SYZTargetActions/UIGestureRecognizer+SYZTargetActionAddition.m"; sourceTree = "<group>"; };
+		B4872C4A2F4C65DF1F40D118D09742CE /* SYZFoundationShorthandMarcos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZFoundationShorthandMarcos.h; path = SYZUIBasekit/Classes/SYZFoundationMacros/SYZFoundationShorthandMarcos.h; sourceTree = "<group>"; };
+		B7478FC4251772AC53D470EBCBA23FEB /* NSDictionary+SYZDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SYZDictionary.m"; path = "SYZUIBasekit/Classes/SYZDictionary/NSDictionary+SYZDictionary.m"; sourceTree = "<group>"; };
+		B87C2C6FE76056C02380264A5D694482 /* NSJSONSerialization+SYZUIBaseKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+SYZUIBaseKitAdd.h"; path = "SYZUIBasekit/Classes/SYZJSONSerialization/NSJSONSerialization+SYZUIBaseKitAdd.h"; sourceTree = "<group>"; };
+		B8BA497D4769BB47AA527544B2F88CD3 /* UIResponder+SYZEventAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+SYZEventAdd.h"; path = "SYZMultipleUIKit/Classes/SYZUIResponder/UIResponder+SYZEventAdd.h"; sourceTree = "<group>"; };
+		B972CD7808737C2AC4140C2C24CA4703 /* CYLTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYLTabBarController-dummy.m"; sourceTree = "<group>"; };
+		B9F848B5D3C8665878781F98283A1B26 /* UIGestureRecognizer+SYZTargetActionAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+SYZTargetActionAddition.h"; path = "SYZMultipleUIKit/Classes/SYZTargetActions/UIGestureRecognizer+SYZTargetActionAddition.h"; sourceTree = "<group>"; };
+		BCC6D82CA5A30362D1AFBF8D95FB70F6 /* NSDate+SYZTimeStamp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SYZTimeStamp.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZTimeStamp.m"; sourceTree = "<group>"; };
+		BD7E2BB5A9246B3AA84AE01F0E6B893F /* UIBarButtonItem+SYZTargetActionAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+SYZTargetActionAddition.h"; path = "SYZMultipleUIKit/Classes/SYZTargetActions/UIBarButtonItem+SYZTargetActionAddition.h"; sourceTree = "<group>"; };
+		BF5D556784E52FA93167B91995C60323 /* UICollectionView+SYZCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+SYZCollectionView.h"; path = "SYZMultipleUIKit/Classes/SYZUICollectionView/UICollectionView+SYZCollectionView.h"; sourceTree = "<group>"; };
+		BFD40DBA10F5948A54AF146B9F096DB5 /* NSObject+SYZObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SYZObject.m"; path = "SYZUIBasekit/Classes/SYZObject/NSObject+SYZObject.m"; sourceTree = "<group>"; };
+		BFDDA80049BCFE342CF9BC2B84638F02 /* NSArray+SYZArrayAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SYZArrayAdd.h"; path = "SYZUIBasekit/Classes/SYZArray/NSArray+SYZArrayAdd.h"; sourceTree = "<group>"; };
+		C00817C80CEDA59120E3D3B6D96794E2 /* NSTimer+SYZTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+SYZTimer.m"; path = "SYZUIBasekit/Classes/SYZTimer/NSTimer+SYZTimer.m"; sourceTree = "<group>"; };
+		C0FFF06E5C6546275BAD7ABD787E4E18 /* NSDictionary+SYZDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SYZDictionary.h"; path = "SYZUIBasekit/Classes/SYZDictionary/NSDictionary+SYZDictionary.h"; sourceTree = "<group>"; };
+		C18548ACBBAEBC80CFC739ED1625288C /* NSSet+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		C1ED6D9717CDEECA897D44133B345010 /* CAAnimation+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+CYLBadgeExtention.h"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		C262DF737F82F8DBA3EA4A17D21C642A /* NSString+SYZString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SYZString.m"; path = "SYZUIBasekit/Classes/SYZString/NSString+SYZString.m"; sourceTree = "<group>"; };
+		C2F01220355F1584ED9E606D1CA8FD3E /* NSMutableArray+SYZMutableArrayAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SYZMutableArrayAdd.h"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.h"; sourceTree = "<group>"; };
+		C42C8C88FC82E03AB5923DC876F93A64 /* SYZAppDelegateEventDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZAppDelegateEventDispatcher.h; path = SYZAppDelegateModule/Classes/SYZAppDelegateEventDispatcher.h; sourceTree = "<group>"; };
+		C4E8E471B140A920B2A1673725C4DF5D /* Pods-SYZAppDelegateModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZAppDelegateModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C57E36C34D133AE8625E0A8E31BFFB65 /* NSNumber+SYZNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+SYZNumber.h"; path = "SYZUIBasekit/Classes/SYZNumber/NSNumber+SYZNumber.h"; sourceTree = "<group>"; };
+		C5C6F8911883F27DCCFFAE60773B07BB /* NSDate+SYZTimeStamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SYZTimeStamp.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZTimeStamp.h"; sourceTree = "<group>"; };
+		C68E3B194C554B886E689D1097B8B635 /* CYLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseViewController.m; path = CYLTabBarController/CYLBaseViewController.m; sourceTree = "<group>"; };
+		C696F534B1EFDBB484DFDE952BC99DDB /* UICollectionView+SYZUIKitAddValidation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+SYZUIKitAddValidation.m"; path = "SYZMultipleUIKit/Classes/SYZUICollectionView/UICollectionView+SYZUIKitAddValidation.m"; sourceTree = "<group>"; };
+		C72D625D0AE72C8E839DF6D808A1FF6C /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		C860106B47DF64D7F72C90C5805E502F /* UIButton+SYZButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+SYZButton.h"; path = "SYZMultipleUIKit/Classes/SYZUIButton/UIButton+SYZButton.h"; sourceTree = "<group>"; };
+		C8BE14E7F621B6D91A1691DC92192C7C /* SYZMultipleUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZMultipleUIKit.h; path = SYZMultipleUIKit/Classes/SYZMultipleUIKit.h; sourceTree = "<group>"; };
+		C9A480FE624C71C9D0E1B07D8A26F4AA /* SYZUIBasekit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZUIBasekit-dummy.m"; sourceTree = "<group>"; };
+		CBA0178E967FFC4364A534CAD17CD86C /* Pods-SYZAppDelegateModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZAppDelegateModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		CCCB916DF231E4BFBEB4E89C390A3FC8 /* UIBarButtonItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		CCF34B6ABBF17680BA98F1AC321C8E02 /* UITextField+SYZUIKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+SYZUIKitAdd.h"; path = "SYZMultipleUIKit/Classes/SYZUITextFiled/UITextField+SYZUIKitAdd.h"; sourceTree = "<group>"; };
+		CDBEA616930411A20E1259CA5C0B3823 /* UIViewController+CYLNavigationControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLNavigationControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.m"; sourceTree = "<group>"; };
+		CE6B6D155432568595200F6096BC9DF6 /* Pods-SYZAppDelegateModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZAppDelegateModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D35990F8C665D6467105CEAB1B5FA7DC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35FE6EAE6765F245F3AEE56352A4268 /* NSTimer+SYZTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+SYZTimer.h"; path = "SYZUIBasekit/Classes/SYZTimer/NSTimer+SYZTimer.h"; sourceTree = "<group>"; };
+		D389F1BE84ED674568E16B2971376CFF /* NSMutableAttributedString+SYZAdditon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+SYZAdditon.h"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSMutableAttributedString+SYZAdditon.h"; sourceTree = "<group>"; };
+		D485F02E5FECBAFA34E23C8EB95B11AE /* UITextView+SYZUIKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+SYZUIKitAdd.m"; path = "SYZMultipleUIKit/Classes/SYZUITextView/UITextView+SYZUIKitAdd.m"; sourceTree = "<group>"; };
+		D68F0A18D906F8E83D30DE8851AF00F9 /* SYZMultipleUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZMultipleUIKit.modulemap; sourceTree = "<group>"; };
+		D6AFF1E51B7BA121B393667DA615795D /* CYLBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseTableViewController.m; path = CYLTabBarController/CYLBaseTableViewController.m; sourceTree = "<group>"; };
+		D702F98C73202A8CBC432DC91400E6F5 /* Pods-SYZAppDelegateModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZAppDelegateModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D77EEFBC35C0A15FD85AAA7EE24B6F5E /* NSFileManager+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZFileManager/NSFileManager+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		D9DE7064FD4F97995C2E0FAAE5459C11 /* NSData+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		DA5CF5E1C36616B5949BB859F6C332B4 /* Pods-SYZAppDelegateModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZAppDelegateModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF2C3FBD23466721FD8C96AD028B9779 /* UIViewController+SYZViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SYZViewController.h"; path = "SYZMultipleUIKit/Classes/SYZUIViewController/UIViewController+SYZViewController.h"; sourceTree = "<group>"; };
+		DF4AA0F3B941602BF8E568A3308FFC13 /* UIDevice+SYZDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SYZDevice.h"; path = "SYZUIBasekit/Classes/SYZDevice/UIDevice+SYZDevice.h"; sourceTree = "<group>"; };
+		DFA852D3E22364CCCAD8C428B14B2F95 /* NSAttributedString+SYZAdditon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+SYZAdditon.h"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSAttributedString+SYZAdditon.h"; sourceTree = "<group>"; };
+		E05389577AA0AA80F17D31E66A1568CD /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		E149A6733D24C9FBFDCC8AC1E75190D5 /* NSArray+SYZArrayAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SYZArrayAdd.m"; path = "SYZUIBasekit/Classes/SYZArray/NSArray+SYZArrayAdd.m"; sourceTree = "<group>"; };
+		E469DCC0ADF03BA06BE142C1ED6AF30B /* SYZUIBasekit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZUIBasekit-umbrella.h"; sourceTree = "<group>"; };
+		E4F818277553430D76BA7096AAF5B93B /* SYZAppDelegateEventDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZAppDelegateEventDispatcher.m; path = SYZAppDelegateModule/Classes/SYZAppDelegateEventDispatcher.m; sourceTree = "<group>"; };
+		E65B8B706F0BE897EF6F6A0FF7722BFD /* UIControl+SYZTargetActionAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+SYZTargetActionAddition.h"; path = "SYZMultipleUIKit/Classes/SYZTargetActions/UIControl+SYZTargetActionAddition.h"; sourceTree = "<group>"; };
+		E6DDC4EDF922A75C96A2C0AA08A003AD /* NSBundle+SYZBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+SYZBundle.h"; path = "SYZUIBasekit/Classes/SYZBundle/NSBundle+SYZBundle.h"; sourceTree = "<group>"; };
+		E6E5FC63F4682AC74C317A4F6C5E55A6 /* Pods-SYZAppDelegateModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZAppDelegateModule_Tests.modulemap"; sourceTree = "<group>"; };
+		E76FA87BD404847B2C85B2F53DA7EA5E /* Pods-SYZAppDelegateModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZAppDelegateModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		E7DBECE1EE370CCC17AD8823D9F27826 /* UITapGestureRecognizer+SYZAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITapGestureRecognizer+SYZAddition.m"; path = "SYZMultipleUIKit/Classes/SYZGestureRecognizer/UITapGestureRecognizer+SYZAddition.m"; sourceTree = "<group>"; };
+		E8DC9158189537C375466420A927CD02 /* UIFont+SYZBUAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+SYZBUAddition.h"; path = "SYZMultipleUIKit/Classes/SYZUIFont/UIFont+SYZBUAddition.h"; sourceTree = "<group>"; };
+		E99FCACCD982FA2AEF3C6416A23C3BEF /* NSURL+SYZURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SYZURL.h"; path = "SYZUIBasekit/Classes/SYZURL/NSURL+SYZURL.h"; sourceTree = "<group>"; };
+		E9D3EAD0CF25CB0BE5B88A6EF711968B /* UIView+SYZUIKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SYZUIKitAdd.m"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+SYZUIKitAdd.m"; sourceTree = "<group>"; };
+		EA7EC8C0E6A5580B967ABFDD863DE02F /* SYZPlaceholderTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZPlaceholderTextView.h; path = SYZMultipleUIKit/Classes/SYZUITextView/SYZPlaceholderTextView.h; sourceTree = "<group>"; };
+		EAAB14CEAAB6DA4CAC91E50BAD2C127B /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB5703F1FAA756EFCDD002B842F102FF /* UIViewController+SYZRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SYZRouter.h"; path = "SYZMultipleUIKit/Classes/SYZUIViewController/UIViewController+SYZRouter.h"; sourceTree = "<group>"; };
+		ECC3E96F458DD5560B22BD1ADA290E1F /* UIViewController+SYZRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SYZRouter.m"; path = "SYZMultipleUIKit/Classes/SYZUIViewController/UIViewController+SYZRouter.m"; sourceTree = "<group>"; };
+		ED85741C222415D92077E0F869B2091B /* Pods-SYZAppDelegateModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZAppDelegateModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE67004F5A74EB1175ACB1713478B721 /* CYLPlusButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLPlusButton.h; path = CYLTabBarController/CYLPlusButton.h; sourceTree = "<group>"; };
+		EEBDA5BA3E395DC4630653EF21EE2DF2 /* UIView+Shadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Shadow.m"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+Shadow.m"; sourceTree = "<group>"; };
+		EFB9AF326B3BADEC9FAD6B1C7C7CF23F /* NSMutableArray+SYZMutableArrayAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SYZMutableArrayAdd.m"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.m"; sourceTree = "<group>"; };
+		F34FCB96EE4B67CCF2A9C04F991B9BEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3EAE81C706C0F96536577CE4A94C1ED /* NSDateFormatter+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDateFormatter+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		F4D5BBFBEFAC1FB551661E3BFB2D0C9A /* CYLBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBadgeProtocol.h; path = CYLTabBarController/CYLBadgeProtocol.h; sourceTree = "<group>"; };
+		F501ED7B573F0F89844000034589993F /* UITapGestureRecognizer+SYZAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITapGestureRecognizer+SYZAddition.h"; path = "SYZMultipleUIKit/Classes/SYZGestureRecognizer/UITapGestureRecognizer+SYZAddition.h"; sourceTree = "<group>"; };
+		F51796FBFB6DFB6675317A102ABDCFB1 /* NSURL+SYZURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SYZURL.m"; path = "SYZUIBasekit/Classes/SYZURL/NSURL+SYZURL.m"; sourceTree = "<group>"; };
+		F738260A007EB98A4E6D575429DC9761 /* UIView+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLBadgeExtention.h"; path = "CYLTabBarController/UIView+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		F7BF2BE44C99FAB2EA2D1F1B64BD029C /* NSException+SYZException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+SYZException.m"; path = "SYZUIBasekit/Classes/SYZException/NSException+SYZException.m"; sourceTree = "<group>"; };
+		F9535C6FB40BA09D13C407C7F35F209B /* UIBarButtonItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		FA73CA05C647B664019A3E9CF28973DE /* UITextView+SYZUIKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+SYZUIKitAdd.h"; path = "SYZMultipleUIKit/Classes/SYZUITextView/UITextView+SYZUIKitAdd.h"; sourceTree = "<group>"; };
+		FB24DFC59C15AF57FA5791C33CFBF01B /* NSHTTPCookieStorage+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSHTTPCookieStorage+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/NSHTTPCookieStorage/NSHTTPCookieStorage+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		FB253FC860B79789E0AA9AA0FD9E17C3 /* Pods_SYZAppDelegateModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZAppDelegateModule_Tests.framework; path = "Pods-SYZAppDelegateModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1510D3685047D372E97875DC64B757 /* UIView+Shadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Shadow.h"; path = "SYZMultipleUIKit/Classes/SYZUIView/UIView+Shadow.h"; sourceTree = "<group>"; };
+		FFD40655CA6DFE04DAB4D2116967F0C0 /* UIView+SYZBundleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SYZBundleImage.h"; path = "SYZMultipleUIKit/Classes/SYZUIImageView/UIView+SYZBundleImage.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20624F6D353E3B5DCAB165F10C1FAE55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9CAAC119F72F7BFC488366C3D30BB3 /* Foundation.framework in Frameworks */,
+				9C519909DE6A245AB72559720E162716 /* SYZUIBasekit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A5FB02D64878B927448E34F516484CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE761A384E7A29D078FE5B351A193675 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A4737A43162DB0E905FB9B1EE63992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2383EFFF58D694B2B504935FB0C37EF /* Foundation.framework in Frameworks */,
+				B8AA2B6A723EF03F4DE28D98A9CC7496 /* SYZUIBasekit.framework in Frameworks */,
+				95F63932D87D966F8DD6482FF0014FCD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E47148F73C47656D0677982BDB0F197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABF86547F79591DE45817FBC67F3F6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA91EDC419BFDCE9A9482D9F95C38AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7EAAA865B450E1F34F33A7BC2FBD1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01E31A913D693F926733678A3DAF0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AC02876AD22AC0C13934613ECA2FAFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B349AFB9C0EF6FFD14DF55B4DA40EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				554AC3DEA45D47AE97C479D504175800 /* Info.plist */,
+				39AA070E93BF8814CFC29355D52ACDBE /* SYZAppDelegateModule.modulemap */,
+				3015D6606ADD854D2D716EF53621EC0D /* SYZAppDelegateModule.xcconfig */,
+				A067AF0D8F2292A4745C6C1B9F426BA3 /* SYZAppDelegateModule-dummy.m */,
+				84FBF80238098059FA787F77A9D9426B /* SYZAppDelegateModule-prefix.pch */,
+				8DAC67479ADA442A8785297A43B8D828 /* SYZAppDelegateModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYZAppDelegateModule";
+			sourceTree = "<group>";
+		};
+		15568515DB05F856E70D673D496BECB2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				84B5E4C0E068F663A77D788E36F149EF /* Foundation.framework */,
+				50F7DD577CEFE572014F60DEADA8ED79 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2CC9712A3450D38F4C2F77748096E1C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36EBECC4E19EDE930CA88844032993F7 /* Info.plist */,
+				274035B22A8C929FCB2D81CA92887BB4 /* SYZUIBasekit.modulemap */,
+				8256A7BA6AFD25DE0510AC11DB00EE2B /* SYZUIBasekit.xcconfig */,
+				C9A480FE624C71C9D0E1B07D8A26F4AA /* SYZUIBasekit-dummy.m */,
+				979D6046DABE69EFF640313BBDA12465 /* SYZUIBasekit-prefix.pch */,
+				E469DCC0ADF03BA06BE142C1ED6AF30B /* SYZUIBasekit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SYZUIBasekit";
+			sourceTree = "<group>";
+		};
+		337AFC3847C0C8964C525FE4729FF484 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1A4221FE57422D7245A24DE4AD2198B /* SYZAppDelegateModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3BF4433D81BAC2559D193E83EC4E5D53 /* SYZMultipleUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				C8BE14E7F621B6D91A1691DC92192C7C /* SYZMultipleUIKit.h */,
+				EA7EC8C0E6A5580B967ABFDD863DE02F /* SYZPlaceholderTextView.h */,
+				A8BD0240CA2D5B57C7B98639C0C62CFB /* SYZPlaceholderTextView.m */,
+				84A8DA67106E29A60D9CAE365A99AF40 /* SYZResponserBlockTarget.h */,
+				5F46BB0C932455FF9AFE69253312FC15 /* SYZResponserBlockTarget.m */,
+				46C0A2FB54B4CC6C5A757DE47B82BF92 /* SYZTargetActions.h */,
+				48E32289492A73202D4CAA38EBB270BE /* SYZUIKitButton.h */,
+				96CC781F60639FACACA1C54D81B0A057 /* SYZUIKitCollectionView.h */,
+				9B790219CB7C3E0670B1B64069208EB5 /* SYZUIKitMacro.h */,
+				47B96C8DF0F871DFA0467470C37597B2 /* SYZUIKitSafeModule.h */,
+				A6F3168544EBCF2F98CD412EE65DFD53 /* SYZUIKitSafeModule.m */,
+				40E91B4F10EE054CD2485D99DB212444 /* SYZUIKitTableView.h */,
+				5F742ADE4520D19C59B8ACBD5D16C294 /* SYZUIKitView.h */,
+				BD7E2BB5A9246B3AA84AE01F0E6B893F /* UIBarButtonItem+SYZTargetActionAddition.h */,
+				6CFEAA1C2BC6921A823499CFF1FC9FAF /* UIBarButtonItem+SYZTargetActionAddition.m */,
+				C860106B47DF64D7F72C90C5805E502F /* UIButton+SYZButton.h */,
+				5256A05D09E3B48DA632A7A3FA5B4D40 /* UIButton+SYZButton.m */,
+				8A2C14BEC982A1E0D0F85F99C8D4E77F /* UIButton+SYZImageTitleSpacing.h */,
+				5BE9E0D82E08DA6784ED0E8A945412E8 /* UIButton+SYZImageTitleSpacing.m */,
+				9163779A3BE65580A409FA67166E06F5 /* UIButton+SYZTouchBounds.h */,
+				395841849A1696D1C3B221C14CE6E2C6 /* UIButton+SYZTouchBounds.m */,
+				BF5D556784E52FA93167B91995C60323 /* UICollectionView+SYZCollectionView.h */,
+				337FFBB814AD24CF9651535E79EB9657 /* UICollectionView+SYZCollectionView.m */,
+				6A341650E950E2300E7807F9AC136E3A /* UICollectionView+SYZUIKitAddUpdate.h */,
+				A5CB8B9B5A8FE763D2188E471B81803B /* UICollectionView+SYZUIKitAddUpdate.m */,
+				A85C5C9F7AF8CDE992FE2A82636FE2D6 /* UICollectionView+SYZUIKitAddValidation.h */,
+				C696F534B1EFDBB484DFDE952BC99DDB /* UICollectionView+SYZUIKitAddValidation.m */,
+				E65B8B706F0BE897EF6F6A0FF7722BFD /* UIControl+SYZTargetActionAddition.h */,
+				901E54F63E84EFC5926C69FC370E171B /* UIControl+SYZTargetActionAddition.m */,
+				E8DC9158189537C375466420A927CD02 /* UIFont+SYZBUAddition.h */,
+				76A60DDCBCFDA3E83350CFDF09C7B30D /* UIFont+SYZBUAddition.m */,
+				B9F848B5D3C8665878781F98283A1B26 /* UIGestureRecognizer+SYZTargetActionAddition.h */,
+				B1DE3D2F9B4CC4CB3F15650735A28AF9 /* UIGestureRecognizer+SYZTargetActionAddition.m */,
+				2AD4F99319BA6EA1CC0F06CB182DC1B6 /* UIImage+SYZUIKitAdd.h */,
+				4A32C626D74494A8B458A80A2EEA6D11 /* UIImage+SYZUIKitAdd.m */,
+				7E4267B43E328B14AB799A6C3D708869 /* UIImageView+SYZBundleImage.h */,
+				31A06814128BDFFA31055FC5D086EC46 /* UIImageView+SYZBundleImage.m */,
+				9E3F69AA24FC798660E783F1605F58E9 /* UIImageView+SYZCornerRadius.h */,
+				71BAFD6A878E4B984F7CA7EF8A207796 /* UIImageView+SYZCornerRadius.m */,
+				99E1EA52BC7DC8BBDFE47F85BEE77D00 /* UINavigationController+SYZNavigationController.h */,
+				386A05DF0935C5BB4CB75472220CA0B6 /* UINavigationController+SYZNavigationController.m */,
+				B8BA497D4769BB47AA527544B2F88CD3 /* UIResponder+SYZEventAdd.h */,
+				1EF6A1B8889FCF58233629DFCAD7E3EF /* UIResponder+SYZEventAdd.m */,
+				6D424DCAE6ECE7B4153AFEC0F000C588 /* UIScrollView+SYZUIKitAdd.h */,
+				AB69BB4B6BE06AF1B5F94AF8184F1B50 /* UIScrollView+SYZUIKitAdd.m */,
+				645BC47B0E29681D42D38C6DE24EF4B3 /* UITabBarController+SYZTabbarController.h */,
+				7EA544DD17A4FB054580DF0F7EF136BC /* UITabBarController+SYZTabbarController.m */,
+				8281C5DAAC33C7104D63E2472D9E04ED /* UITableView+SYZTableView.h */,
+				0853A9CDEF09E341203B5A9CA932558A /* UITableView+SYZTableView.m */,
+				899FB5311A28BBFEF90332A6EA714345 /* UITableView+SYZUIKitAddUpdate.h */,
+				815E322DB2CEE1C08331305A19A189EB /* UITableView+SYZUIKitAddUpdate.m */,
+				73669888AF5F650CC0EEA28A3D0ABA16 /* UITableView+SYZUIKitAddValidation.h */,
+				1075FF1F2EE58925913EE2669ED50CD0 /* UITableView+SYZUIKitAddValidation.m */,
+				F501ED7B573F0F89844000034589993F /* UITapGestureRecognizer+SYZAddition.h */,
+				E7DBECE1EE370CCC17AD8823D9F27826 /* UITapGestureRecognizer+SYZAddition.m */,
+				CCF34B6ABBF17680BA98F1AC321C8E02 /* UITextField+SYZUIKitAdd.h */,
+				9DCE1B924B8E38A77AA293ABFFC88BBF /* UITextField+SYZUIKitAdd.m */,
+				FA73CA05C647B664019A3E9CF28973DE /* UITextView+SYZUIKitAdd.h */,
+				D485F02E5FECBAFA34E23C8EB95B11AE /* UITextView+SYZUIKitAdd.m */,
+				FF1510D3685047D372E97875DC64B757 /* UIView+Shadow.h */,
+				EEBDA5BA3E395DC4630653EF21EE2DF2 /* UIView+Shadow.m */,
+				22AB307629832EBA1F8177C0B7E1D5EF /* UIView+SYZAddition.h */,
+				1E54A923AEF2BD5955A8790F9EAF5390 /* UIView+SYZAddition.m */,
+				FFD40655CA6DFE04DAB4D2116967F0C0 /* UIView+SYZBundleImage.h */,
+				02C89710C63D7ABDBF2DBAC4903778E3 /* UIView+SYZBundleImage.m */,
+				7E049EF61791752EB37077B612EEF290 /* UIView+SYZCornerRadius.h */,
+				07581A35140F5D491D8CC551FF741E7C /* UIView+SYZCornerRadius.m */,
+				AD4888497D469307B5E6A21D289CCF66 /* UIView+SYZLayoutAddition.h */,
+				9F865BBE6E0CC5CE8800641D5EE1AFD9 /* UIView+SYZLayoutAddition.m */,
+				34C43C435A400C7D9C41F83F9F305BB9 /* UIView+SYZUIKitAdd.h */,
+				E9D3EAD0CF25CB0BE5B88A6EF711968B /* UIView+SYZUIKitAdd.m */,
+				EB5703F1FAA756EFCDD002B842F102FF /* UIViewController+SYZRouter.h */,
+				ECC3E96F458DD5560B22BD1ADA290E1F /* UIViewController+SYZRouter.m */,
+				DF2C3FBD23466721FD8C96AD028B9779 /* UIViewController+SYZViewController.h */,
+				329532B32A59555D37D471D5E35AB679 /* UIViewController+SYZViewController.m */,
+				092F8C3509186AFEBFC1BCA617186DA7 /* UIWebView+SYZUIKitAdd.h */,
+				71802FC47688B802B68D8B7B8D10938D /* UIWebView+SYZUIKitAdd.m */,
+				5AAF3F58B2B1DB016CAE79CB286006F4 /* Support Files */,
+			);
+			name = SYZMultipleUIKit;
+			path = SYZMultipleUIKit;
+			sourceTree = "<group>";
+		};
+		574B9C79281A0A66FF44420C3C9BF9DB /* SYZUIBasekit */ = {
+			isa = PBXGroup;
+			children = (
+				BFDDA80049BCFE342CF9BC2B84638F02 /* NSArray+SYZArrayAdd.h */,
+				E149A6733D24C9FBFDCC8AC1E75190D5 /* NSArray+SYZArrayAdd.m */,
+				DFA852D3E22364CCCAD8C428B14B2F95 /* NSAttributedString+SYZAdditon.h */,
+				71AEEC6F2780A815751C0F5F5FFA576A /* NSAttributedString+SYZAdditon.m */,
+				E6DDC4EDF922A75C96A2C0AA08A003AD /* NSBundle+SYZBundle.h */,
+				063A6F3F11E04D50FCC720BC65691449 /* NSBundle+SYZBundle.m */,
+				D9DE7064FD4F97995C2E0FAAE5459C11 /* NSData+SYZFoundationAdd.h */,
+				A625AD2D2E5B0EEB5CC01B1F355BD258 /* NSData+SYZFoundationAdd.m */,
+				859D6B5CA1FE3C046FD3B398254B00DA /* NSDate+SYZDate.h */,
+				9857E273EB15C993729FBB8F2D4C8F3A /* NSDate+SYZDate.m */,
+				C5C6F8911883F27DCCFFAE60773B07BB /* NSDate+SYZTimeStamp.h */,
+				BCC6D82CA5A30362D1AFBF8D95FB70F6 /* NSDate+SYZTimeStamp.m */,
+				2CFC6C37E3FEBD0A49925F17B149AD63 /* NSDateFormatter+SYZFoundationAdd.h */,
+				F3EAE81C706C0F96536577CE4A94C1ED /* NSDateFormatter+SYZFoundationAdd.m */,
+				C0FFF06E5C6546275BAD7ABD787E4E18 /* NSDictionary+SYZDictionary.h */,
+				B7478FC4251772AC53D470EBCBA23FEB /* NSDictionary+SYZDictionary.m */,
+				2CAA7708085513924AC6EFEAA96E1836 /* NSException+SYZException.h */,
+				F7BF2BE44C99FAB2EA2D1F1B64BD029C /* NSException+SYZException.m */,
+				D77EEFBC35C0A15FD85AAA7EE24B6F5E /* NSFileManager+SYZFoundationAdd.h */,
+				5F889ADF665A4C49259F456971B8D3A8 /* NSFileManager+SYZFoundationAdd.m */,
+				0E18805BCFB7CA9063279A266F50FE27 /* NSHTTPCookieStorage+SYZFoundationAdd.h */,
+				FB24DFC59C15AF57FA5791C33CFBF01B /* NSHTTPCookieStorage+SYZFoundationAdd.m */,
+				B87C2C6FE76056C02380264A5D694482 /* NSJSONSerialization+SYZUIBaseKitAdd.h */,
+				6923129F44BF0A5D3CB0BDA984300923 /* NSJSONSerialization+SYZUIBaseKitAdd.m */,
+				C2F01220355F1584ED9E606D1CA8FD3E /* NSMutableArray+SYZMutableArrayAdd.h */,
+				EFB9AF326B3BADEC9FAD6B1C7C7CF23F /* NSMutableArray+SYZMutableArrayAdd.m */,
+				D389F1BE84ED674568E16B2971376CFF /* NSMutableAttributedString+SYZAdditon.h */,
+				237FA854C87A236D8A1E69AA680D46C6 /* NSMutableAttributedString+SYZAdditon.m */,
+				C57E36C34D133AE8625E0A8E31BFFB65 /* NSNumber+SYZNumber.h */,
+				59ACA6FBBC97919DFDB162E9661D2CD6 /* NSNumber+SYZNumber.m */,
+				5B4558185B5068A8AF617F53FFF10FD1 /* NSObject+SYZObject.h */,
+				BFD40DBA10F5948A54AF146B9F096DB5 /* NSObject+SYZObject.m */,
+				166C62EA55C9072D94ECC0FBED39EC3B /* NSScanner+SYZFoundationAdd.h */,
+				8C6EF0003F216663BBBCF1472C44BEFB /* NSScanner+SYZFoundationAdd.m */,
+				541E9868EC0E4DFB8DB91B4E5FA2ECE1 /* NSSet+SYZFoundationAdd.h */,
+				C18548ACBBAEBC80CFC739ED1625288C /* NSSet+SYZFoundationAdd.m */,
+				5E7CB5415BC97CC1E594064B31A324F7 /* NSString+SYZString.h */,
+				C262DF737F82F8DBA3EA4A17D21C642A /* NSString+SYZString.m */,
+				D35FE6EAE6765F245F3AEE56352A4268 /* NSTimer+SYZTimer.h */,
+				C00817C80CEDA59120E3D3B6D96794E2 /* NSTimer+SYZTimer.m */,
+				E99FCACCD982FA2AEF3C6416A23C3BEF /* NSURL+SYZURL.h */,
+				F51796FBFB6DFB6675317A102ABDCFB1 /* NSURL+SYZURL.m */,
+				70E92A69EAB6FD9F2C61B0EA199E43C3 /* SYZDate.h */,
+				07C960CD490EFB2655C209511BE68C11 /* SYZDateEnum.h */,
+				802ECC05BAA81BBE401CEA65807A18AD /* SYZFoundationMacros.h */,
+				B4872C4A2F4C65DF1F40D118D09742CE /* SYZFoundationShorthandMarcos.h */,
+				14D13BA9E3D17619573242F8AA64E3CD /* SYZTimerProxy.h */,
+				843766BD763496E44D4549D6A9B9F7D2 /* SYZTimerProxy.m */,
+				0BF85F3853EBF6B78399E1CEC680C260 /* SYZUIBasekit.h */,
+				A9E942C8FAEECB7C860ED999DDEE93B5 /* SYZWeakObject.h */,
+				97A1ED7FF9E8CAA7975610FCA56C9F16 /* SYZWeakObject.m */,
+				7EFD80CC1499AE6CFFB854E65F9A8757 /* UIApplication+SYZFoundation.h */,
+				3F2DB097F9CA89BFE9FB58A592275EC2 /* UIApplication+SYZFoundation.m */,
+				DF4AA0F3B941602BF8E568A3308FFC13 /* UIDevice+SYZDevice.h */,
+				9292C339F1336D551EA8086AEE886EBB /* UIDevice+SYZDevice.m */,
+				2CC9712A3450D38F4C2F77748096E1C9 /* Support Files */,
+			);
+			name = SYZUIBasekit;
+			path = SYZUIBasekit;
+			sourceTree = "<group>";
+		};
+		5AAF3F58B2B1DB016CAE79CB286006F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F34FCB96EE4B67CCF2A9C04F991B9BEE /* Info.plist */,
+				D68F0A18D906F8E83D30DE8851AF00F9 /* SYZMultipleUIKit.modulemap */,
+				5B04403EF318BED7075AA44179BD37E9 /* SYZMultipleUIKit.xcconfig */,
+				5DEFE9EEED4D21BFFD1CD1CA4409BF54 /* SYZMultipleUIKit-dummy.m */,
+				A227B2F74A0469D0D8ECB03A1E2BCCF3 /* SYZMultipleUIKit-prefix.pch */,
+				47A5906A2E9CDD9CE357B6B8C99D512D /* SYZMultipleUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SYZMultipleUIKit";
+			sourceTree = "<group>";
+		};
+		5B56E0BCC460F733F6C6327DEB50BB6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180BC75D42D93560044FB9A9F2E3F627 /* CYLTabBarController.framework */,
+				343BA7971C71DFE1129BD194051B8D6F /* Pods_SYZAppDelegateModule_Example.framework */,
+				FB253FC860B79789E0AA9AA0FD9E17C3 /* Pods_SYZAppDelegateModule_Tests.framework */,
+				4264E3526A51FF4C3C81FC34B6B5627E /* SYZAppDelegateModule.framework */,
+				4AFF390343F85FBD4C185114CCCF0697 /* SYZMultipleUIKit.framework */,
+				90141AF5C3A09F8DFD9C9959EEB21E7C /* SYZUIBasekit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B9F430CC60C9A724645F8CCE2AAF965 /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C1ED6D9717CDEECA897D44133B345010 /* CAAnimation+CYLBadgeExtention.h */,
+				5C369C64F180CA23F35A91C6EC37AB10 /* CAAnimation+CYLBadgeExtention.m */,
+				F4D5BBFBEFAC1FB551661E3BFB2D0C9A /* CYLBadgeProtocol.h */,
+				6E20E1B8C301B0CE6EDCDDEDC28BA050 /* CYLBaseNavigationController.h */,
+				3727BEB8F8D833F84D2804BFCE19A30D /* CYLBaseNavigationController.m */,
+				4857B877E6EEA1D570F26447F5DF15B9 /* CYLBaseTableViewController.h */,
+				D6AFF1E51B7BA121B393667DA615795D /* CYLBaseTableViewController.m */,
+				84F800A9B6D3EA3FDF1991DFE05B0FFB /* CYLBaseViewController.h */,
+				C68E3B194C554B886E689D1097B8B635 /* CYLBaseViewController.m */,
+				18ADFA5A30A5E8DFF80EDFB7C965E525 /* CYLConstants.h */,
+				EE67004F5A74EB1175ACB1713478B721 /* CYLPlusButton.h */,
+				1533D6A205A0F7A3E8CF45958B09F84B /* CYLPlusButton.m */,
+				514E25CFC6641FBD68229DCCA8203819 /* CYLTabBar.h */,
+				8EB662D3F81A74EC699D607AD7AB7DCD /* CYLTabBar.m */,
+				74DFF452FE71703E5D4C4647D995C612 /* CYLTabBarController.h */,
+				7599106D865AAAB6481E5D6CFD078591 /* CYLTabBarController.m */,
+				CCCB916DF231E4BFBEB4E89C390A3FC8 /* UIBarButtonItem+CYLBadgeExtention.h */,
+				F9535C6FB40BA09D13C407C7F35F209B /* UIBarButtonItem+CYLBadgeExtention.m */,
+				A771D8FE5438C8344B8FD848CD3E3759 /* UIControl+CYLTabBarControllerExtention.h */,
+				96F2998D31F81F76518B5AA988B81DC2 /* UIControl+CYLTabBarControllerExtention.m */,
+				67A5C7F422AA16B287B1B7373990D8A1 /* UITabBar+CYLTabBarControllerExtention.h */,
+				AB62E304963FFAE4C7555743B68F518C /* UITabBar+CYLTabBarControllerExtention.m */,
+				443B46FEFE41B00F7E9C7812901057FD /* UITabBarItem+CYLBadgeExtention.h */,
+				A52A08CBD920E3C4DC2C3F7C43DAD3F2 /* UITabBarItem+CYLBadgeExtention.m */,
+				38E029AA82FEBFFF79BC9F8EA3D0FE5E /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				561C114C716938F7155556584F37A659 /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				F738260A007EB98A4E6D575429DC9761 /* UIView+CYLBadgeExtention.h */,
+				A302C5E370E752F2E6BAF8A5EF76B52D /* UIView+CYLBadgeExtention.m */,
+				85372D24048D859352B26956E7E8A1A1 /* UIView+CYLTabBarControllerExtention.h */,
+				42156625DB7DC14F3991CCD879E06F8B /* UIView+CYLTabBarControllerExtention.m */,
+				47167F0FCCBAF1AF08024407050B3129 /* UIViewController+CYLNavigationControllerExtention.h */,
+				CDBEA616930411A20E1259CA5C0B3823 /* UIViewController+CYLNavigationControllerExtention.m */,
+				C72D625D0AE72C8E839DF6D808A1FF6C /* UIViewController+CYLTabBarControllerExtention.h */,
+				E05389577AA0AA80F17D31E66A1568CD /* UIViewController+CYLTabBarControllerExtention.m */,
+				828FF9CF0A2BFA9BDE558A1B53FD95A6 /* Support Files */,
+			);
+			name = CYLTabBarController;
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				337AFC3847C0C8964C525FE4729FF484 /* Development Pods */,
+				DAC6C91EECBB0085632EAFA2133A8A51 /* Frameworks */,
+				E5E825164E7F2E1B977ED728A7C43FFD /* Pods */,
+				5B56E0BCC460F733F6C6327DEB50BB6E /* Products */,
+				8F1E9CB7E10119171248B0353F986177 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		828FF9CF0A2BFA9BDE558A1B53FD95A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F673F4F2B49841B9A4B9E520954D50 /* CYLTabBarController.modulemap */,
+				9C94CE8B16CB74B6883F27548E7C2F6D /* CYLTabBarController.xcconfig */,
+				B972CD7808737C2AC4140C2C24CA4703 /* CYLTabBarController-dummy.m */,
+				637981F9B8D5D4011865C472E57E8157 /* CYLTabBarController-prefix.pch */,
+				10AB01F71FB309E6387AECCCBB447687 /* CYLTabBarController-umbrella.h */,
+				D35990F8C665D6467105CEAB1B5FA7DC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CYLTabBarController";
+			sourceTree = "<group>";
+		};
+		83B5A0AB09904E2483FB0CC84B151FDB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				49440359AB42F34A2237F570218FDE3E /* LICENSE */,
+				3EFFD939AAA7085991A0F2849311743D /* README.md */,
+				10B126F8FCEEE82DCAB43CF8DF221ACC /* SYZAppDelegateModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8F1E9CB7E10119171248B0353F986177 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA799C6EB136ADB67E25E32B7044D9FA /* Pods-SYZAppDelegateModule_Example */,
+				A04434ABF38633690143894B8B780D48 /* Pods-SYZAppDelegateModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A04434ABF38633690143894B8B780D48 /* Pods-SYZAppDelegateModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				704146B11BD60E6B0CC3E5776AAB4EC7 /* Info.plist */,
+				E6E5FC63F4682AC74C317A4F6C5E55A6 /* Pods-SYZAppDelegateModule_Tests.modulemap */,
+				40BC1FF479328A4DC52271AE757A9D3D /* Pods-SYZAppDelegateModule_Tests-acknowledgements.markdown */,
+				DA5CF5E1C36616B5949BB859F6C332B4 /* Pods-SYZAppDelegateModule_Tests-acknowledgements.plist */,
+				CBA0178E967FFC4364A534CAD17CD86C /* Pods-SYZAppDelegateModule_Tests-dummy.m */,
+				D702F98C73202A8CBC432DC91400E6F5 /* Pods-SYZAppDelegateModule_Tests-frameworks.sh */,
+				007BBB322423B6447CB82F9945A01AF6 /* Pods-SYZAppDelegateModule_Tests-resources.sh */,
+				CE6B6D155432568595200F6096BC9DF6 /* Pods-SYZAppDelegateModule_Tests-umbrella.h */,
+				ED85741C222415D92077E0F869B2091B /* Pods-SYZAppDelegateModule_Tests.debug.xcconfig */,
+				C4E8E471B140A920B2A1673725C4DF5D /* Pods-SYZAppDelegateModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-SYZAppDelegateModule_Tests";
+			path = "Target Support Files/Pods-SYZAppDelegateModule_Tests";
+			sourceTree = "<group>";
+		};
+		C1A4221FE57422D7245A24DE4AD2198B /* SYZAppDelegateModule */ = {
+			isa = PBXGroup;
+			children = (
+				C42C8C88FC82E03AB5923DC876F93A64 /* SYZAppDelegateEventDispatcher.h */,
+				E4F818277553430D76BA7096AAF5B93B /* SYZAppDelegateEventDispatcher.m */,
+				190486DC5997103BB924A7C6C870909B /* SYZAppDelegateModuleProtocol.h */,
+				9F41E772583959B0D369B73327B0A3AF /* SYZOriginAppDelegate.h */,
+				5F60B1E0D7CC50B1A16B9EBF861FFDFC /* SYZOriginAppDelegate.m */,
+				83B5A0AB09904E2483FB0CC84B151FDB /* Pod */,
+				07B349AFB9C0EF6FFD14DF55B4DA40EA /* Support Files */,
+			);
+			name = SYZAppDelegateModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DAC6C91EECBB0085632EAFA2133A8A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAAB14CEAAB6DA4CAC91E50BAD2C127B /* SYZUIBasekit.framework */,
+				15568515DB05F856E70D673D496BECB2 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5E825164E7F2E1B977ED728A7C43FFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B9F430CC60C9A724645F8CCE2AAF965 /* CYLTabBarController */,
+				3BF4433D81BAC2559D193E83EC4E5D53 /* SYZMultipleUIKit */,
+				574B9C79281A0A66FF44420C3C9BF9DB /* SYZUIBasekit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA799C6EB136ADB67E25E32B7044D9FA /* Pods-SYZAppDelegateModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9BA9254C9ABC679EB027DB6EB5D05A3F /* Info.plist */,
+				912844F2F582D22543B22B4BC636F604 /* Pods-SYZAppDelegateModule_Example.modulemap */,
+				7FE0B00156A4C39B7ABB81D335E02AA8 /* Pods-SYZAppDelegateModule_Example-acknowledgements.markdown */,
+				B020F95FFABB2EC8DDFA60DFD6815E65 /* Pods-SYZAppDelegateModule_Example-acknowledgements.plist */,
+				4D824A834F53EBF45F1BE705E81D2270 /* Pods-SYZAppDelegateModule_Example-dummy.m */,
+				58E27DA6C9EF8302C104C0D8AC4FDFA0 /* Pods-SYZAppDelegateModule_Example-frameworks.sh */,
+				0256827632235EB057C68EE3E3CF2FC6 /* Pods-SYZAppDelegateModule_Example-resources.sh */,
+				E76FA87BD404847B2C85B2F53DA7EA5E /* Pods-SYZAppDelegateModule_Example-umbrella.h */,
+				434E7D7776B62DA958CCB9B771D0A6BE /* Pods-SYZAppDelegateModule_Example.debug.xcconfig */,
+				2DA686A5121FAA3C8E1CED3A157DAA62 /* Pods-SYZAppDelegateModule_Example.release.xcconfig */,
+			);
+			name = "Pods-SYZAppDelegateModule_Example";
+			path = "Target Support Files/Pods-SYZAppDelegateModule_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EDC6C5FA11820F1408B9F4B2E673409 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8963E84C4F779CDF5915FEA3A3AD83D1 /* SYZAppDelegateEventDispatcher.h in Headers */,
+				EC723EBDF994D4E35705064BFD9ED7CF /* SYZAppDelegateModule-umbrella.h in Headers */,
+				F710496822423B22EEB32599FEF39E80 /* SYZAppDelegateModuleProtocol.h in Headers */,
+				84CE80697E7616E5AFDC93314BEFCE9A /* SYZOriginAppDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B593C522513E4B54A8D3EC8AFB7B7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D56D08BE239B1723FC59CF750F13A5 /* SYZMultipleUIKit-umbrella.h in Headers */,
+				8EAFB94C9248C6A057A1476B99BFCD08 /* SYZMultipleUIKit.h in Headers */,
+				6846FF8BAC5B337CD1DB627A6140A933 /* SYZPlaceholderTextView.h in Headers */,
+				12E46B7CD67EF58FF4C5AAC4C30B1E33 /* SYZResponserBlockTarget.h in Headers */,
+				93017C4706A80265C071EF684AC7C7BE /* SYZTargetActions.h in Headers */,
+				6D90774CD1E59C733DC6071672D28ACB /* SYZUIKitButton.h in Headers */,
+				42E593C63A4F089CBE193C4DBFFC7DEF /* SYZUIKitCollectionView.h in Headers */,
+				48E6EC5090B023D5C354306582369904 /* SYZUIKitMacro.h in Headers */,
+				69D90F2A1CE7A51BE74136A2CA74E700 /* SYZUIKitSafeModule.h in Headers */,
+				7B896117C9F20B0A463A405094E0348C /* SYZUIKitTableView.h in Headers */,
+				4105FC6CDC8134A1770C0B7D341A57D3 /* SYZUIKitView.h in Headers */,
+				5263C1E73F4B361633ACCC9ABAF2BB0C /* UIBarButtonItem+SYZTargetActionAddition.h in Headers */,
+				95810DB7C6E3B3BB484C5D93CD182DA0 /* UIButton+SYZButton.h in Headers */,
+				B0B00403D987ADD721D449BC8D4AB8BF /* UIButton+SYZImageTitleSpacing.h in Headers */,
+				060568D4325114EB0933FD2BC34DC9DE /* UIButton+SYZTouchBounds.h in Headers */,
+				1BB0D0C349C828F23807F881C4E24371 /* UICollectionView+SYZCollectionView.h in Headers */,
+				1085CD72550A3F99D57EBA34CC749207 /* UICollectionView+SYZUIKitAddUpdate.h in Headers */,
+				8BC41B31A6EA91BDBAA06BC904CFE8CB /* UICollectionView+SYZUIKitAddValidation.h in Headers */,
+				A174C0750DDF4DC879D9E02D43215567 /* UIControl+SYZTargetActionAddition.h in Headers */,
+				DD4067412A138F3AD0C578CA0CF85E01 /* UIFont+SYZBUAddition.h in Headers */,
+				CD0B3692EC3D3B03FB6A0267A0594B03 /* UIGestureRecognizer+SYZTargetActionAddition.h in Headers */,
+				7E1C9895DEBA26FABD29FDE4849267BA /* UIImage+SYZUIKitAdd.h in Headers */,
+				1AD03418D23EFB92BAE51D86C73C38A2 /* UIImageView+SYZBundleImage.h in Headers */,
+				C35E1C1C0453ECE0542E51071170B057 /* UIImageView+SYZCornerRadius.h in Headers */,
+				E6F9A8F8972ABF671AF6A3AE12CEE7D2 /* UINavigationController+SYZNavigationController.h in Headers */,
+				22583A2C06DA718DABC6DB8FA89363A3 /* UIResponder+SYZEventAdd.h in Headers */,
+				E948E2EC82C6DA9D4A9195F4AE4AE7C5 /* UIScrollView+SYZUIKitAdd.h in Headers */,
+				64B3F234F102E2AEB26714DDFDD34BC3 /* UITabBarController+SYZTabbarController.h in Headers */,
+				22D3DB9696797A1F1A4F88D74D622C33 /* UITableView+SYZTableView.h in Headers */,
+				C3EC325A6A52AE601ADF002121FC7F7A /* UITableView+SYZUIKitAddUpdate.h in Headers */,
+				85F6E6D48AD645CBD59A3F9ECB93815F /* UITableView+SYZUIKitAddValidation.h in Headers */,
+				8320538A1E9E03339282FF513CA236C4 /* UITapGestureRecognizer+SYZAddition.h in Headers */,
+				1E1FA6422584B08E44613424BAB58B8F /* UITextField+SYZUIKitAdd.h in Headers */,
+				810E9120FEE183455EBAA1DB35181C59 /* UITextView+SYZUIKitAdd.h in Headers */,
+				69A66E7927A445DAA9512F6F4F2731E9 /* UIView+Shadow.h in Headers */,
+				FA822862753AFBF96385C3DEC5D4EE78 /* UIView+SYZAddition.h in Headers */,
+				C1D8237607BBC48360DA33846ED1563E /* UIView+SYZBundleImage.h in Headers */,
+				B09A7F05B9C1FB3F728DD9C9BA0240DD /* UIView+SYZCornerRadius.h in Headers */,
+				263D5BA3D124DCC3FC9F77DEA0A63835 /* UIView+SYZLayoutAddition.h in Headers */,
+				DDEBE56E3DF0749BC573C8E84386D005 /* UIView+SYZUIKitAdd.h in Headers */,
+				6E394BD1B1FE0B42A4835B0ACBF385D9 /* UIViewController+SYZRouter.h in Headers */,
+				AE7CB0C385FE37A5F5595CEF3511F546 /* UIViewController+SYZViewController.h in Headers */,
+				B6FBACFCF875E9862BFAD9C886ECA4EB /* UIWebView+SYZUIKitAdd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83297ECA0E310DA797D86FF65D5D76FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629C7050C3C20C5E89C8F71E483EDF7E /* Pods-SYZAppDelegateModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B2DEB79621FFF7AFBB372981BF1202 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96221B00B263F0A57FC4CDC5A5ED30C5 /* NSArray+SYZArrayAdd.h in Headers */,
+				76575713FFB91C3DB7882F4021F0AF35 /* NSAttributedString+SYZAdditon.h in Headers */,
+				91D5215AD33CECE3B10D572877E5E08F /* NSBundle+SYZBundle.h in Headers */,
+				01A329CB58BDB399DFA6F0E4677C0644 /* NSData+SYZFoundationAdd.h in Headers */,
+				BB0721E76AE0A2DE4F938D2AC2E0EE2E /* NSDate+SYZDate.h in Headers */,
+				00593BD1E391D10F1390F2DB41764A1E /* NSDate+SYZTimeStamp.h in Headers */,
+				A9A4302A38CCB84B81B1AD838EB395F4 /* NSDateFormatter+SYZFoundationAdd.h in Headers */,
+				5BD4308C5C401EB6C717C5C35BF4C7B4 /* NSDictionary+SYZDictionary.h in Headers */,
+				11BC48AA7B282567E8598C4B34839472 /* NSException+SYZException.h in Headers */,
+				E53D2CD7CCBE34DB7252C78E95E5F2A1 /* NSFileManager+SYZFoundationAdd.h in Headers */,
+				17F5770596E035C15A99E27BD87F295B /* NSHTTPCookieStorage+SYZFoundationAdd.h in Headers */,
+				C4A847280E2C845F8E777FC216D83CF1 /* NSJSONSerialization+SYZUIBaseKitAdd.h in Headers */,
+				1F9D921A8E3E29F1EE2F883DD2440DB1 /* NSMutableArray+SYZMutableArrayAdd.h in Headers */,
+				1748E1AC14681D6D715D788485C01739 /* NSMutableAttributedString+SYZAdditon.h in Headers */,
+				B3309356017EAA50D222A5470C758FE6 /* NSNumber+SYZNumber.h in Headers */,
+				A19292B4A89F417ACD27A3FB956D5253 /* NSObject+SYZObject.h in Headers */,
+				AD4B59B314A7974B57C3698A176A8911 /* NSScanner+SYZFoundationAdd.h in Headers */,
+				5A7C2A65DD47DF84E0785B1EA940ED2A /* NSSet+SYZFoundationAdd.h in Headers */,
+				A11AE117B6C1456C4B8AC7020A9BA14F /* NSString+SYZString.h in Headers */,
+				8DF1909505E41C4A59B9026C9EBC6786 /* NSTimer+SYZTimer.h in Headers */,
+				F62D3EE38E666768EBABE6A9ABBAB9FD /* NSURL+SYZURL.h in Headers */,
+				FB5127304B2671D88F9203A07F94DCE9 /* SYZDate.h in Headers */,
+				CE866361100BB8C57A442291CE50DEB9 /* SYZDateEnum.h in Headers */,
+				27626A9B43DD5941B5B2968CADC91009 /* SYZFoundationMacros.h in Headers */,
+				8F9F0B696D92966C11C3913D7CD3A50F /* SYZFoundationShorthandMarcos.h in Headers */,
+				459A64EE564D046FC6E4E2B9B0AC9620 /* SYZTimerProxy.h in Headers */,
+				4DEA5B61817933F29C4737157CFC864D /* SYZUIBasekit-umbrella.h in Headers */,
+				54FA6C65302FA213FC747C315F8A1394 /* SYZUIBasekit.h in Headers */,
+				487A698B88ABF1974A52B42B0CA546F7 /* SYZWeakObject.h in Headers */,
+				9B9F4417BC413C77FB9C3B0BD31612B4 /* UIApplication+SYZFoundation.h in Headers */,
+				FCE93182E90362E7DE396A2665E8F34D /* UIDevice+SYZDevice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC550E628DFE0B14B2A3129D0F196717 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567E796359705BE0E4DDE4BFBBA72F64 /* Pods-SYZAppDelegateModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B92D41C63F631E3ECB862192917BE8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632428DE8C0C5D6FA94356B636C9BFFF /* CAAnimation+CYLBadgeExtention.h in Headers */,
+				74ED0F4B4B350CE1AD27918A9AE147C9 /* CYLBadgeProtocol.h in Headers */,
+				C2598E3372318F2564EB749C11DFE957 /* CYLBaseNavigationController.h in Headers */,
+				54650981F1470C2D1995B088B6CE621D /* CYLBaseTableViewController.h in Headers */,
+				1432FE6AA2F41EA1FE4C550C101384C6 /* CYLBaseViewController.h in Headers */,
+				67930CB0E09798559B853ECA473FD45F /* CYLConstants.h in Headers */,
+				1AA8AAC53829B409467544F9C0C8C76C /* CYLPlusButton.h in Headers */,
+				FACCF44623659EA502D3E4D5C0100982 /* CYLTabBar.h in Headers */,
+				A6D0EB36105824A380A400E50329A9C1 /* CYLTabBarController-umbrella.h in Headers */,
+				ABA361AB1CFFB4D5EAD4C628FD92202B /* CYLTabBarController.h in Headers */,
+				21C2F702FCAA88BCC9C575E5A729E323 /* UIBarButtonItem+CYLBadgeExtention.h in Headers */,
+				6FEF66DAA5C9103AB6D9E78BC197C870 /* UIControl+CYLTabBarControllerExtention.h in Headers */,
+				EBEE9056A455FCA885B4446ED59EE3C8 /* UITabBar+CYLTabBarControllerExtention.h in Headers */,
+				4C6352DF1DE5D3491E8AA5FEC2FE05B6 /* UITabBarItem+CYLBadgeExtention.h in Headers */,
+				662F6BD1C0036E29E34B08438B520FF4 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */,
+				E24D25BE02DC5431113E416D4DC94516 /* UIView+CYLBadgeExtention.h in Headers */,
+				F077978D44CB2BB06F85F39D0B63F981 /* UIView+CYLTabBarControllerExtention.h in Headers */,
+				5870C7766BDA861486A7FE56F501000B /* UIViewController+CYLNavigationControllerExtention.h in Headers */,
+				FEBEE9D8126B7DA076B765375BD48227 /* UIViewController+CYLTabBarControllerExtention.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F5CDF8866918876CE29840ACC9A275B /* CYLTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F437D7363CE068A2DB75E0427590AB2 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */;
+			buildPhases = (
+				A24D99D50E48EE277782080D6A41443C /* Sources */,
+				6E47148F73C47656D0677982BDB0F197 /* Frameworks */,
+				C6B92D41C63F631E3ECB862192917BE8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYLTabBarController;
+			productName = CYLTabBarController;
+			productReference = 180BC75D42D93560044FB9A9F2E3F627 /* CYLTabBarController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B5B5B9E856B19231AAD51664D017234 /* SYZUIBasekit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E6CC9E780E1C97AF6DC0B41AD67603 /* Build configuration list for PBXNativeTarget "SYZUIBasekit" */;
+			buildPhases = (
+				2C3C71274DB092E336B7FEDBC4A727F9 /* Sources */,
+				2A5FB02D64878B927448E34F516484CA /* Frameworks */,
+				87B2DEB79621FFF7AFBB372981BF1202 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYZUIBasekit;
+			productName = SYZUIBasekit;
+			productReference = 90141AF5C3A09F8DFD9C9959EEB21E7C /* SYZUIBasekit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		872386DD73FCCD7FCE7CC8A6C7087C51 /* SYZMultipleUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6AF505449AAA844C05F5D51900319E /* Build configuration list for PBXNativeTarget "SYZMultipleUIKit" */;
+			buildPhases = (
+				63532645AE3FD1B9BF8060DB76A759D8 /* Sources */,
+				20624F6D353E3B5DCAB165F10C1FAE55 /* Frameworks */,
+				82B593C522513E4B54A8D3EC8AFB7B7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9461F28CDBE91BB5B4775B0433A5A14 /* PBXTargetDependency */,
+			);
+			name = SYZMultipleUIKit;
+			productName = SYZMultipleUIKit;
+			productReference = 4AFF390343F85FBD4C185114CCCF0697 /* SYZMultipleUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B35724F29FC696CBA5F09D92DB5B654F /* Pods-SYZAppDelegateModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BD3212E99782355C24FC7CE3662A61 /* Build configuration list for PBXNativeTarget "Pods-SYZAppDelegateModule_Tests" */;
+			buildPhases = (
+				3A8CD94EBC5AF3B357A653BAC9882F59 /* Sources */,
+				AA91EDC419BFDCE9A9482D9F95C38AAD /* Frameworks */,
+				BC550E628DFE0B14B2A3129D0F196717 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SYZAppDelegateModule_Tests";
+			productName = "Pods-SYZAppDelegateModule_Tests";
+			productReference = FB253FC860B79789E0AA9AA0FD9E17C3 /* Pods_SYZAppDelegateModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA1CB56BF5C5AB8060FEA3D5F183E949 /* SYZAppDelegateModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0092397DCCD82450D05267523F900C /* Build configuration list for PBXNativeTarget "SYZAppDelegateModule" */;
+			buildPhases = (
+				88C3A63900ECC7BE112E3277A147231B /* Sources */,
+				63A4737A43162DB0E905FB9B1EE63992 /* Frameworks */,
+				0EDC6C5FA11820F1408B9F4B2E673409 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				911810C3AB8B8CC6E798F4DCF47CBF02 /* PBXTargetDependency */,
+			);
+			name = SYZAppDelegateModule;
+			productName = SYZAppDelegateModule;
+			productReference = 4264E3526A51FF4C3C81FC34B6B5627E /* SYZAppDelegateModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF8FF1143135C70255C95010AE2C4918 /* Pods-SYZAppDelegateModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D33105AA397342AB15811548CE85A48 /* Build configuration list for PBXNativeTarget "Pods-SYZAppDelegateModule_Example" */;
+			buildPhases = (
+				2F32493FE8447FB1AF249D34DA38F7D3 /* Sources */,
+				B01E31A913D693F926733678A3DAF0E9 /* Frameworks */,
+				83297ECA0E310DA797D86FF65D5D76FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7360DAF1A4A329129971DD75B8DE53B7 /* PBXTargetDependency */,
+				5AA3883B12C06F77694B30D501382456 /* PBXTargetDependency */,
+				6E3DDB59DA0A08DDEDB77733F97C16AE /* PBXTargetDependency */,
+				E799DEC3AF58B2B43BBA7A32665611B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SYZAppDelegateModule_Example";
+			productName = "Pods-SYZAppDelegateModule_Example";
+			productReference = 343BA7971C71DFE1129BD194051B8D6F /* Pods_SYZAppDelegateModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5B56E0BCC460F733F6C6327DEB50BB6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F5CDF8866918876CE29840ACC9A275B /* CYLTabBarController */,
+				CF8FF1143135C70255C95010AE2C4918 /* Pods-SYZAppDelegateModule_Example */,
+				B35724F29FC696CBA5F09D92DB5B654F /* Pods-SYZAppDelegateModule_Tests */,
+				BA1CB56BF5C5AB8060FEA3D5F183E949 /* SYZAppDelegateModule */,
+				872386DD73FCCD7FCE7CC8A6C7087C51 /* SYZMultipleUIKit */,
+				4B5B5B9E856B19231AAD51664D017234 /* SYZUIBasekit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C3C71274DB092E336B7FEDBC4A727F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0E404553D0898684BBFECE29561AF8 /* NSArray+SYZArrayAdd.m in Sources */,
+				D57504BDD813C24A41ED3597C1BAD0FD /* NSAttributedString+SYZAdditon.m in Sources */,
+				6A414B49B8D72D4E2C5D911D420CE3AA /* NSBundle+SYZBundle.m in Sources */,
+				0A3B5EFF77AA4F7AE46BEDE58BFCB579 /* NSData+SYZFoundationAdd.m in Sources */,
+				9293F9BFF1B87072DDFBE6E36820A8BD /* NSDate+SYZDate.m in Sources */,
+				1666765D7965F8C0FF714CD5E2286265 /* NSDate+SYZTimeStamp.m in Sources */,
+				112F8505FF0C4FED6B37145679BF4E15 /* NSDateFormatter+SYZFoundationAdd.m in Sources */,
+				0DCC96238DED8EF53937900CF3FB12BB /* NSDictionary+SYZDictionary.m in Sources */,
+				8E10C82DDF9CDA6923D7BD955D48A824 /* NSException+SYZException.m in Sources */,
+				2538EEF4B897D3DD40DD1A838B730BB9 /* NSFileManager+SYZFoundationAdd.m in Sources */,
+				52896A8292E572C2CC067B88FE167A01 /* NSHTTPCookieStorage+SYZFoundationAdd.m in Sources */,
+				CEA77F9C38FC14AC4F4930039F837FAC /* NSJSONSerialization+SYZUIBaseKitAdd.m in Sources */,
+				23AA140DDAD22357E7C7B1EF498208AC /* NSMutableArray+SYZMutableArrayAdd.m in Sources */,
+				E59856FB2E6721B759FA962C4C54B349 /* NSMutableAttributedString+SYZAdditon.m in Sources */,
+				7748E0204E4A4F59626C7B01D48AB5AA /* NSNumber+SYZNumber.m in Sources */,
+				2420A15BFFBA91F8C17381936312EDFB /* NSObject+SYZObject.m in Sources */,
+				4B026665CE9BBDCB10327E6578A8CC70 /* NSScanner+SYZFoundationAdd.m in Sources */,
+				B2296E20DF5C81581A582A84C6316889 /* NSSet+SYZFoundationAdd.m in Sources */,
+				CC7C10B7B56C233619CE4143013AC642 /* NSString+SYZString.m in Sources */,
+				34991156177A40C177FD492C17251E1D /* NSTimer+SYZTimer.m in Sources */,
+				C0635DD41282203CBCD2DCC091EC8647 /* NSURL+SYZURL.m in Sources */,
+				1EFB1265B710768D690CA2BC23164960 /* SYZTimerProxy.m in Sources */,
+				A0BC10CDF135B83C52EFE5D8250DE03B /* SYZUIBasekit-dummy.m in Sources */,
+				29BD7C749A2EC8E859CFE8C01EEDE3E2 /* SYZWeakObject.m in Sources */,
+				33AED51F4CA73086FDE1195235FE24BB /* UIApplication+SYZFoundation.m in Sources */,
+				798207922C03A92C016903BBA7908AC9 /* UIDevice+SYZDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F32493FE8447FB1AF249D34DA38F7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A44E198E4024A4CE49D0D0E05ADA57 /* Pods-SYZAppDelegateModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8CD94EBC5AF3B357A653BAC9882F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1558A960B6FDF9A5EDBD046A93C346 /* Pods-SYZAppDelegateModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63532645AE3FD1B9BF8060DB76A759D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ECE6EB45004B06D0ECAD3745A63998 /* SYZMultipleUIKit-dummy.m in Sources */,
+				34BA7608878453499B6F59BFD4BF8E56 /* SYZPlaceholderTextView.m in Sources */,
+				23A51E382EFA94A773D5BDD9C4B9D86C /* SYZResponserBlockTarget.m in Sources */,
+				4DFA5C76D088FCFA333D4E93FD56202E /* SYZUIKitSafeModule.m in Sources */,
+				BA6E5A19FB96F5A368FB20C58F12153D /* UIBarButtonItem+SYZTargetActionAddition.m in Sources */,
+				9DAE950DCB4FB1F7D8957C6C3A399491 /* UIButton+SYZButton.m in Sources */,
+				673B3B34DF07349A02B95552A69F5FB2 /* UIButton+SYZImageTitleSpacing.m in Sources */,
+				D9BCEB62A3DD838BB18DEB024F0A380A /* UIButton+SYZTouchBounds.m in Sources */,
+				74D691026038FA592F92F205DE29EB98 /* UICollectionView+SYZCollectionView.m in Sources */,
+				F6A6DA6B3C9A62564F6ADE6C767F677F /* UICollectionView+SYZUIKitAddUpdate.m in Sources */,
+				6CAE30FF1C0F5439B0BDFCB621820D1D /* UICollectionView+SYZUIKitAddValidation.m in Sources */,
+				BC0D3B2923A76E9E93EC26A239A1D439 /* UIControl+SYZTargetActionAddition.m in Sources */,
+				7CB833DA54F0710A450AFC5558878286 /* UIFont+SYZBUAddition.m in Sources */,
+				9D2053C5BE5EF3E7B111E0A027E61CDE /* UIGestureRecognizer+SYZTargetActionAddition.m in Sources */,
+				96117BC87E0A960DF821ED1EA7085686 /* UIImage+SYZUIKitAdd.m in Sources */,
+				3781DF0FECD0586F6C47D70D0D8453B4 /* UIImageView+SYZBundleImage.m in Sources */,
+				1C7A500F5B653F7D7619B3117E1AC696 /* UIImageView+SYZCornerRadius.m in Sources */,
+				7DC7C7D55966DC64080BDFE17A10D350 /* UINavigationController+SYZNavigationController.m in Sources */,
+				7B2480020E0BF8788574FA60440E19ED /* UIResponder+SYZEventAdd.m in Sources */,
+				706B966B9DFF197721230374642B34C7 /* UIScrollView+SYZUIKitAdd.m in Sources */,
+				5DDBF75EC9678657A000BBB9FE0D9382 /* UITabBarController+SYZTabbarController.m in Sources */,
+				0BC6AEC9D8492AD9C600B5656DBF867E /* UITableView+SYZTableView.m in Sources */,
+				71DCFF8B0DBECC98EC023A0EAB152DCB /* UITableView+SYZUIKitAddUpdate.m in Sources */,
+				9FC8E57CB5A958F1B5667029998CF1DB /* UITableView+SYZUIKitAddValidation.m in Sources */,
+				9196E9CD6CBE70D105AF403C2AC54CE0 /* UITapGestureRecognizer+SYZAddition.m in Sources */,
+				EFA36AADC7B25AB7BFC7262A2ED93C5B /* UITextField+SYZUIKitAdd.m in Sources */,
+				69084DB738303E7A5768EFDD5498D36F /* UITextView+SYZUIKitAdd.m in Sources */,
+				1576F70735998190F0B3F47262E11446 /* UIView+Shadow.m in Sources */,
+				AD9B115F6362094E62E7888EE610A0D7 /* UIView+SYZAddition.m in Sources */,
+				154357F256DB4E7D1F60E2762870FD27 /* UIView+SYZBundleImage.m in Sources */,
+				1CA465251BE25636AC499D1FD2AC7664 /* UIView+SYZCornerRadius.m in Sources */,
+				B776B9081E2866E85442B76346114A9D /* UIView+SYZLayoutAddition.m in Sources */,
+				FAB95FC138A431C3B8E639C66153BDFC /* UIView+SYZUIKitAdd.m in Sources */,
+				DB31F2EDA70E4B1EB680BB03BDF98518 /* UIViewController+SYZRouter.m in Sources */,
+				9EFC1C7E5B6FA5B6C62BE619FDF70604 /* UIViewController+SYZViewController.m in Sources */,
+				7155AC43DD8C2CBB9731448F49CB4196 /* UIWebView+SYZUIKitAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C3A63900ECC7BE112E3277A147231B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D9AF048D56B251B58EA4CF290A44D5 /* SYZAppDelegateEventDispatcher.m in Sources */,
+				CFAAF8E126B52D860EE099B0696CC75D /* SYZAppDelegateModule-dummy.m in Sources */,
+				DE8D0F73B9ADB45B7327DE044CA0E679 /* SYZOriginAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24D99D50E48EE277782080D6A41443C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CBFFEC501495703B71E70524308FDDC /* CAAnimation+CYLBadgeExtention.m in Sources */,
+				176179FB8A9A1603D2C5082F8029664B /* CYLBaseNavigationController.m in Sources */,
+				9D1E0CE954B124FB605C02456B8862A6 /* CYLBaseTableViewController.m in Sources */,
+				F179CA3542FF11FA5268F6C9D551C4C6 /* CYLBaseViewController.m in Sources */,
+				BFD4912E07E83598E34C070D5F17B002 /* CYLPlusButton.m in Sources */,
+				78BDE471541E82DBB682013FD41B665E /* CYLTabBar.m in Sources */,
+				4F5E29CFC62BDDCC5B50270F74EE5E1C /* CYLTabBarController-dummy.m in Sources */,
+				3DACDCAEEC2ED897A047A8B6B00510C6 /* CYLTabBarController.m in Sources */,
+				C554D35BE95E808B2FB5C8196194393C /* UIBarButtonItem+CYLBadgeExtention.m in Sources */,
+				9F77DD38AAC9E9EA2DDF1EDB57A2217C /* UIControl+CYLTabBarControllerExtention.m in Sources */,
+				785DF51880CBC6A2F1AE10ADF416AE14 /* UITabBar+CYLTabBarControllerExtention.m in Sources */,
+				87DAEE2AB4EFA3F56BCB401767973D5A /* UITabBarItem+CYLBadgeExtention.m in Sources */,
+				7013C6D6B955FEF68A5EB59AA6D629F2 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				030A81E65DCD795EDBD22AA0F31C5331 /* UIView+CYLBadgeExtention.m in Sources */,
+				3E63D126C368ECA40A41BB7F639AF531 /* UIView+CYLTabBarControllerExtention.m in Sources */,
+				F6D4E77740378F48040F094046F2BE7E /* UIViewController+CYLNavigationControllerExtention.m in Sources */,
+				E13F75BCE080CC53054B93DDD0168529 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA3883B12C06F77694B30D501382456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZAppDelegateModule;
+			target = BA1CB56BF5C5AB8060FEA3D5F183E949 /* SYZAppDelegateModule */;
+			targetProxy = C128814D241BF7A2E42547640FE7610D /* PBXContainerItemProxy */;
+		};
+		6E3DDB59DA0A08DDEDB77733F97C16AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZMultipleUIKit;
+			target = 872386DD73FCCD7FCE7CC8A6C7087C51 /* SYZMultipleUIKit */;
+			targetProxy = CC790820FB9382EB5100289079160883 /* PBXContainerItemProxy */;
+		};
+		7360DAF1A4A329129971DD75B8DE53B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYLTabBarController;
+			target = 0F5CDF8866918876CE29840ACC9A275B /* CYLTabBarController */;
+			targetProxy = D6F1849CADBBE5E7A1C423EC7D397D40 /* PBXContainerItemProxy */;
+		};
+		911810C3AB8B8CC6E798F4DCF47CBF02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZUIBasekit;
+			target = 4B5B5B9E856B19231AAD51664D017234 /* SYZUIBasekit */;
+			targetProxy = EF896061651DA7DA666972079AF23694 /* PBXContainerItemProxy */;
+		};
+		E799DEC3AF58B2B43BBA7A32665611B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZUIBasekit;
+			target = 4B5B5B9E856B19231AAD51664D017234 /* SYZUIBasekit */;
+			targetProxy = A7139C04D3E6C4BF4B2B0548CB84D4E6 /* PBXContainerItemProxy */;
+		};
+		E9461F28CDBE91BB5B4775B0433A5A14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZUIBasekit;
+			target = 4B5B5B9E856B19231AAD51664D017234 /* SYZUIBasekit */;
+			targetProxy = C669D8FD09F996BAA7F6F240800DA911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FB3FE14DFA3E1B7C1F376C6B0AFB2FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B04403EF318BED7075AA44179BD37E9 /* SYZMultipleUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZMultipleUIKit/SYZMultipleUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZMultipleUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZMultipleUIKit/SYZMultipleUIKit.modulemap";
+				PRODUCT_NAME = SYZMultipleUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10D32FA8D78677FABD3450677A37B397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3015D6606ADD854D2D716EF53621EC0D /* SYZAppDelegateModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZAppDelegateModule/SYZAppDelegateModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZAppDelegateModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZAppDelegateModule/SYZAppDelegateModule.modulemap";
+				PRODUCT_NAME = SYZAppDelegateModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AC53BF251CF28CF0DA4D74B831419A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434E7D7776B62DA958CCB9B771D0A6BE /* Pods-SYZAppDelegateModule_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZAppDelegateModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZAppDelegateModule_Example/Pods-SYZAppDelegateModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZAppDelegateModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29E67193B5E1DCF5537593B7439FDF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3015D6606ADD854D2D716EF53621EC0D /* SYZAppDelegateModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZAppDelegateModule/SYZAppDelegateModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZAppDelegateModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZAppDelegateModule/SYZAppDelegateModule.modulemap";
+				PRODUCT_NAME = SYZAppDelegateModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		545EA158FD68761703F0F8214A6242DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8256A7BA6AFD25DE0510AC11DB00EE2B /* SYZUIBasekit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZUIBasekit/SYZUIBasekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZUIBasekit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit.modulemap";
+				PRODUCT_NAME = SYZUIBasekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84456A99F9FF3FB55DB726B65628E42C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED85741C222415D92077E0F869B2091B /* Pods-SYZAppDelegateModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZAppDelegateModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZAppDelegateModule_Tests/Pods-SYZAppDelegateModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZAppDelegateModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91DFFADC8192814C960075A8188C7668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B04403EF318BED7075AA44179BD37E9 /* SYZMultipleUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZMultipleUIKit/SYZMultipleUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZMultipleUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZMultipleUIKit/SYZMultipleUIKit.modulemap";
+				PRODUCT_NAME = SYZMultipleUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9590360A47DFE8CBE1337FBD6D1291DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C94CE8B16CB74B6883F27548E7C2F6D /* CYLTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYLTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController.modulemap";
+				PRODUCT_NAME = CYLTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96E5DB8F92621AACB82FF1307BE7E34A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8256A7BA6AFD25DE0510AC11DB00EE2B /* SYZUIBasekit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZUIBasekit/SYZUIBasekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZUIBasekit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit.modulemap";
+				PRODUCT_NAME = SYZUIBasekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DB0EB7FF5431406A2F54686D62CFCA85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA686A5121FAA3C8E1CED3A157DAA62 /* Pods-SYZAppDelegateModule_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZAppDelegateModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZAppDelegateModule_Example/Pods-SYZAppDelegateModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZAppDelegateModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E267596B8F6E60FBBF1F9001A8D75649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E8E471B140A920B2A1673725C4DF5D /* Pods-SYZAppDelegateModule_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZAppDelegateModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZAppDelegateModule_Tests/Pods-SYZAppDelegateModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SYZAppDelegateModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6B13481DC8A3AB53F529A7DE21C3496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C94CE8B16CB74B6883F27548E7C2F6D /* CYLTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYLTabBarController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController.modulemap";
+				PRODUCT_NAME = CYLTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F437D7363CE068A2DB75E0427590AB2 /* Build configuration list for PBXNativeTarget "CYLTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9590360A47DFE8CBE1337FBD6D1291DE /* Debug */,
+				F6B13481DC8A3AB53F529A7DE21C3496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
+				DA03565BE765DB55C6448FB363A44481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BD3212E99782355C24FC7CE3662A61 /* Build configuration list for PBXNativeTarget "Pods-SYZAppDelegateModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84456A99F9FF3FB55DB726B65628E42C /* Debug */,
+				E267596B8F6E60FBBF1F9001A8D75649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D33105AA397342AB15811548CE85A48 /* Build configuration list for PBXNativeTarget "Pods-SYZAppDelegateModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC53BF251CF28CF0DA4D74B831419A9 /* Debug */,
+				DB0EB7FF5431406A2F54686D62CFCA85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E6CC9E780E1C97AF6DC0B41AD67603 /* Build configuration list for PBXNativeTarget "SYZUIBasekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E5DB8F92621AACB82FF1307BE7E34A /* Debug */,
+				545EA158FD68761703F0F8214A6242DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6AF505449AAA844C05F5D51900319E /* Build configuration list for PBXNativeTarget "SYZMultipleUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FB3FE14DFA3E1B7C1F376C6B0AFB2FF /* Debug */,
+				91DFFADC8192814C960075A8188C7668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0092397DCCD82450D05267523F900C /* Build configuration list for PBXNativeTarget "SYZAppDelegateModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E67193B5E1DCF5537593B7439FDF45 /* Debug */,
+				10D32FA8D78677FABD3450677A37B397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

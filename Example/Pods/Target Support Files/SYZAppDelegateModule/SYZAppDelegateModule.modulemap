@@ -1,0 +1,6 @@
+framework module SYZAppDelegateModule {
+  umbrella header "SYZAppDelegateModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
